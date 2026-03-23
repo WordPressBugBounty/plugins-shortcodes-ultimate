@@ -149,7 +149,7 @@ class Su_Generator
 		wp_enqueue_script(
 			'shortcodes-ultimate-block-editor',
 			plugins_url('includes/js/block-editor/index.js', SU_PLUGIN_FILE),
-			array('wp-element', 'wp-components', 'wp-edit-post', 'wp-plugins', 'wp-blocks', 'wp-data', 'su-generator'),
+			array('wp-element', 'wp-components', 'wp-edit-post', 'wp-plugins', 'wp-blocks', 'wp-data'),
 			SU_PLUGIN_VERSION,
 			true
 		);

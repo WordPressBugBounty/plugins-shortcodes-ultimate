@@ -119,6 +119,9 @@ function su_shortcode_custom_gallery( $atts = null, $content = null ) {
 		'custom_gallery'
 	);
 
+	$atts['width']  = intval( $atts['width'] );
+	$atts['height'] = intval( $atts['height'] );
+
 	$slides = su_get_slides( $atts );
 	$slides = apply_filters( 'su/shortcode/custom_gallery/slides', $slides, $atts );
 
