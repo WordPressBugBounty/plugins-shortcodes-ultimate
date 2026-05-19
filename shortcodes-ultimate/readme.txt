@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, shortcode generator, gutenberg, content
-Stable tag: 7.5.1
+Stable tag: 7.5.3
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -196,6 +196,11 @@ Upgrade normally
 
 == Changelog ==
 
+
+
+= 7.5.3 =
+
+- Fixed issue with missing `/freemius/` folder
 
 
 = 7.5.1 =

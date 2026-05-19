@@ -8,7 +8,7 @@
  * Description: Create tabs, accordions, buttons, sliders, boxes and reusable content elements with 50+ WordPress shortcodes
  * Text Domain: shortcodes-ultimate
  * License: GPLv3
- * Version: 7.5.1
+ * Version: 7.5.3
  * Requires PHP: 7.0
  * Requires at least: 6.0
  * Tested up to: 7.0
@@ -64,6 +64,6 @@ if ( function_exists( 'su_fs' ) ) {
         }
     }
     define( 'SU_PLUGIN_FILE', __FILE__ );
-    define( 'SU_PLUGIN_VERSION', '7.5.1' );
+    define( 'SU_PLUGIN_VERSION', '7.5.3' );
     require_once dirname( __FILE__ ) . '/plugin.php';
 }
