@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, shortcode generator, gutenberg, content
-Stable tag: 7.5.3
+Stable tag: 7.6.0
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -19,6 +19,8 @@ Create tabs, accordions, buttons, sliders, boxes and reusable content elements w
 Create tabs, accordions, buttons, boxes, sliders, carousels, lightboxes, columns, post lists and other visual elements directly inside WordPress posts, pages, widgets and templates.
 
 Use it when you need a practical content toolkit for blogs, business websites, affiliate sites, documentation, landing pages, client projects or existing WordPress sites with shortcode-based content.
+
+https://www.youtube.com/watch?v=_bPBo-Ao_9o
 
 = What you can build =
 
@@ -196,6 +198,23 @@ Upgrade normally
 
 == Changelog ==
 
+
+
+= 7.6.0 =
+
+Big update for the Shortcode Generator tool!
+
+I've improved the tool to make it even easier and more pleasant to use. It now includes an always-visible live preview, a grouped list of shortcodes, a reset settings button, a copy shortcode button, and many other helpful improvements.
+
+With the new live preview, you can instantly see how your shortcode will look while changing the settings. The grouped shortcode list makes it easier to find the right option, and the new copy button helps you add shortcodes faster.
+
+Take a look at the updated interface here:
+
+Main window screenshot:
+[https://ps.w.org/shortcodes-ultimate/assets/screenshot-2.png?rev=3536023](https://ps.w.org/shortcodes-ultimate/assets/screenshot-2.png?rev=3536023)
+
+Shortcode Settings screenshot:
+[https://ps.w.org/shortcodes-ultimate/assets/screenshot-3.png?rev=3536023](https://ps.w.org/shortcodes-ultimate/assets/screenshot-3.png?rev=3536023)
 
 
 = 7.5.3 =

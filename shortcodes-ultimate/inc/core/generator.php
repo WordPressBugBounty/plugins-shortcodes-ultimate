@@ -28,6 +28,7 @@ class Su_Generator
 		add_action('wp_ajax_su_generator_get_icons', array(__CLASS__, 'ajax_get_icons'));
 		add_action('wp_ajax_su_generator_get_terms', array(__CLASS__, 'ajax_get_terms'));
 		add_action('wp_ajax_su_generator_get_taxonomies', array(__CLASS__, 'ajax_get_taxonomies'));
+		add_action('wp_ajax_su_generator_search_posts', array(__CLASS__, 'ajax_search_posts'));
 		add_action('wp_ajax_su_generator_add_preset', array(__CLASS__, 'ajax_add_preset'));
 		add_action('wp_ajax_su_generator_remove_preset', array(__CLASS__, 'ajax_remove_preset'));
 		add_action('wp_ajax_su_generator_get_preset', array(__CLASS__, 'ajax_get_preset'));
@@ -217,6 +218,25 @@ class Su_Generator
 
 	}
 
+	public static function get_choice_icon($shortcode)
+	{
+		if (!isset($shortcode['icon'])) {
+			$shortcode['icon'] = 'puzzle-piece';
+		}
+
+		if (strpos($shortcode['icon'], '/') === false) {
+			$shortcode['icon'] = 'icon:' . $shortcode['icon'];
+		}
+
+		$shortcode['name'] = (isset($shortcode['name'])) ? $shortcode['name'] : 'untitled-shortcode';
+
+		if (!isset($shortcode['desc'])) {
+			$shortcode['desc'] = '';
+		}
+
+		return su_html_icon($shortcode['icon']);
+	}
+
 	/**
 	 * Generator popup form
 	 */
@@ -238,33 +258,51 @@ class Su_Generator
 		?>
 		<div id="su-generator-wrap" style="display:none">
 			<div id="su-generator">
-				<div id="su-generator-header">
-					<div id="su-generator-tools"><?php echo implode(' <span></span> ', $tools); ?></div>
-					<input type="text" name="su_generator_search" id="su-generator-search" value="" placeholder="<?php _e('Search for shortcodes', 'shortcodes-ultimate'); ?>" />
-					<p id="su-generator-search-pro-tip"><?php printf('<strong>%s:</strong> %s', __('Pro Tip', 'shortcodes-ultimate'), __('Hit enter to select highlighted shortcode, while searching', 'shortcodes-ultimate')) ?></p>
-					<div id="su-generator-filter">
-						<strong><?php _e('Filter by type', 'shortcodes-ultimate'); ?></strong>
-						<?php foreach (su_get_groups() as $group => $label)
-							echo '<a href="#" data-filter="' . $group . '">' . $label . '</a>'; ?>
+				<div class="su-generator-header">
+					<!-- <div id="su-generator-tools"><?php echo implode(' <span></span> ', $tools); ?></div> -->
+					<div class="su-generator-header-title">
+						<?php _e('Insert Shortcode', 'shortcodes-ultimate'); ?>
 					</div>
-					<div id="su-generator-choices" class="su-generator-clearfix">
+					<div id="su-generator-search-wrapper">
+						<input type="text" name="su_generator_search" id="su-generator-search" value="" placeholder="<?php _e('Search for shortcodes', 'shortcodes-ultimate'); ?>" />
+						<button type="button" id="su-generator-search-clear" title="<?php esc_attr_e('Clear search', 'shortcodes-ultimate'); ?>" aria-label="<?php esc_attr_e('Clear search', 'shortcodes-ultimate'); ?>">
+							<i class="sui sui-times" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+				<!-- <p id="su-generator-search-pro-tip"><?php printf('<strong>%s:</strong> %s', __('Pro Tip', 'shortcodes-ultimate'), __('Hit enter to select highlighted shortcode, while searching', 'shortcodes-ultimate')) ?></p> -->
+				<?php if (!su_fs()->can_use_premium_code() && !su_has_all_active_addons()): ?>
+					<div class="su-generator-pro-nag">
 						<?php
-						// Choices loop
-						foreach (self::get_shortcodes() as $name => $shortcode) {
-							if (!isset($shortcode['icon'])) {
-								$shortcode['icon'] = 'puzzle-piece';
-							}
-							if (strpos($shortcode['icon'], '/') === false) {
-								$shortcode['icon'] = 'icon:' . $shortcode['icon'];
-							}
-							$shortcode['name'] = (isset($shortcode['name'])) ? $shortcode['name'] : $name;
-							if (!isset($shortcode['desc'])) {
-								$shortcode['desc'] = '';
-							}
-							echo '<span data-name="' . $shortcode['name'] . '" data-shortcode="' . $name . '" title="' . esc_attr($shortcode['desc']) . '" data-desc="' . esc_attr($shortcode['desc']) . '" data-group="' . $shortcode['group'] . '">' . su_html_icon($shortcode['icon']) . $shortcode['name'] . '</span>' . "\n";
-						}
+						// translators: %s is replaced with "Shortcodes Ultimate Pro link"
+						printf(
+							__('Unlock 15 additional shortcodes, 60+ styles, and create your own shortcodes with %s', 'shortcodes-ultimate'),
+							sprintf(
+								'<a href="%s" target="_blank">%s &rsaquo;</a>',
+								esc_attr(su_get_utm_link('https://getshortcodes.com/pricing/', 'wp-dashboard', 'generator', 'pro-nag')),
+								__('Shortcodes Ultimate Pro', 'shortcodes-ultimate')
+							)
+						);
 						?>
+						<a href="<?php echo esc_attr(su_get_utm_link('https://getshortcodes.com/pricing/', 'wp-dashboard', 'generator', 'pro-nag')) ?>" target="_blank" class="su-generator-pro-nag-block-link"><?php _e('Shortcodes Ultimate Pro', 'shortcodes-ultimate') ?></a>
 					</div>
+				<?php endif; ?>
+				<div id="su-generator-choices">
+					<?php foreach (self::get_shortcodes_grouped() as $group_id => $group): ?>
+						<div class="su-generator-choices-group">
+							<div class="su-generator-choices-group-title">
+								<?php echo esc_html($group['title']); ?>
+							</div>
+							<div class="su-generator-choices-group-items">
+								<?php foreach ($group['shortcodes'] as $shortcode_id => $shortcode): ?>
+									<div class="su-generator-choice" data-name="<?php echo esc_attr($shortcode['name']); ?>" data-shortcode="<?php echo esc_attr($shortcode_id); ?>" title="<?php echo esc_attr($shortcode['desc']); ?>" data-desc="<?php echo esc_attr($shortcode['desc']); ?>" data-group="<?php echo esc_attr($shortcode['group']); ?>">
+										<?php echo self::get_choice_icon($shortcode); ?>
+										<span><?php echo esc_html($shortcode['name']); ?></span>
+									</div>
+								<?php endforeach; ?>
+							</div>
+						</div>
+					<?php endforeach; ?>
 				</div>
 				<div id="su-generator-settings"></div>
 				<input type="hidden" name="su-generator-selected" id="su-generator-selected" value="<?php echo plugins_url('', SU_PLUGIN_FILE); ?>" />
@@ -303,10 +341,13 @@ class Su_Generator
 		// Prepare actions
 		$actions = apply_filters('su/generator/actions', array(
 			'insert' => '<a href="javascript:void(0);" class="button button-primary button-large su-generator-insert"><i class="sui sui-check"></i> ' . __('Insert shortcode', 'shortcodes-ultimate') . '</a>',
-			'preview' => '<a href="javascript:void(0);" class="button button-large su-generator-toggle-preview"><i class="sui sui-eye"></i> ' . __('Live preview', 'shortcodes-ultimate') . '</a>'
+			'copy'   => '<button type="button" class="button button-large su-generator-copy" data-label="' . esc_attr__( 'Copy shortcode', 'shortcodes-ultimate' ) . '" data-copied-label="' . esc_attr__( 'Copied', 'shortcodes-ultimate' ) . '" aria-label="' . esc_attr__( 'Copy shortcode', 'shortcodes-ultimate' ) . '"><i class="sui sui-copy" aria-hidden="true"></i><span class="su-generator-copy-label">' . esc_html__( 'Copy shortcode', 'shortcodes-ultimate' ) . '</span></button>',
+			'reset'  => '<button type="button" class="button button-large su-generator-reset" aria-label="' . esc_attr__( 'Reset Settings', 'shortcodes-ultimate' ) . '"><i class="sui sui-undo" aria-hidden="true"></i>' . esc_html__( 'Reset Settings', 'shortcodes-ultimate' ) . '</button>',
 		));
+		$return = '<div class="su-generator-settings-body">';
+		$return .= '<div class="su-generator-settings-fields">';
 		// Shortcode header
-		$return = '<div id="su-generator-breadcrumbs">';
+		$return .= '<div id="su-generator-breadcrumbs">';
 		$return .= apply_filters('su/generator/breadcrumbs', '<a href="javascript:void(0);" class="su-generator-home" title="' . __('Click to return to the shortcodes list', 'shortcodes-ultimate') . '">' . __('All shortcodes', 'shortcodes-ultimate') . '</a> &rarr; <span>' . $shortcode['name'] . '</span> <small class="alignright">' . $shortcode['desc'] . '</small><div class="su-generator-clear"></div>');
 		$return .= '</div>';
 		// Shortcode note
@@ -357,9 +398,10 @@ class Su_Generator
 			// Prepare shortcode content
 			$return .= '<div class="su-generator-attr-container"><h5>' . __('Content', 'shortcodes-ultimate') . '</h5><textarea name="su-generator-content" id="su-generator-content" rows="5">' . esc_attr(str_replace(array('%prefix_', '__'), su_get_shortcode_prefix(), $shortcode['content'])) . '</textarea></div>';
 		}
-		$return .= '<div id="su-generator-preview"></div>';
+		$return .= '</div>';
+		$return .= '<div class="su-generator-preview-panel"><div id="su-generator-preview"></div></div>';
+		$return .= '</div>';
 		$return .= '<div class="su-generator-actions su-generator-clearfix">' . implode(' ', array_values($actions)) . '</div>';
-		set_transient('su/generator/settings/' . sanitize_text_field($_REQUEST['shortcode']), $return, 2 * DAY_IN_SECONDS);
 		echo $return;
 		exit;
 	}
@@ -438,6 +480,95 @@ class Su_Generator
 		$args = array();
 		$args['options'] = self::get_taxonomies();
 		die(su_html_dropdown($args));
+	}
+
+	public static function ajax_search_posts()
+	{
+		self::access();
+
+		$ids = array();
+
+		if (isset($_REQUEST['ids'])) {
+			$ids = is_array($_REQUEST['ids'])
+				? $_REQUEST['ids']
+				: explode(',', (string) wp_unslash($_REQUEST['ids']));
+
+			$ids = array_filter(array_map('absint', $ids));
+		}
+
+		$args = array(
+			'no_found_rows'          => true,
+			'post_status'            => 'publish',
+			'post_type'              => self::get_searchable_post_types(),
+			'posts_per_page'         => 20,
+			'suppress_filters'       => false,
+			'update_post_meta_cache' => false,
+			'update_post_term_cache' => false,
+		);
+
+		if (!empty($ids)) {
+			$args['orderby'] = 'post__in';
+			$args['post__in'] = $ids;
+			$args['posts_per_page'] = count($ids);
+		} else {
+			$search = isset($_REQUEST['search'])
+				? sanitize_text_field(wp_unslash($_REQUEST['search']))
+				: '';
+
+			if (strlen($search) < 2) {
+				wp_send_json_success(array('results' => array()));
+			}
+
+			$args['s'] = $search;
+		}
+
+		$query = new WP_Query($args);
+		$results = array();
+
+		foreach ($query->posts as $post) {
+			$results[] = self::format_post_search_result($post);
+		}
+
+		wp_send_json_success(array('results' => $results));
+	}
+
+	private static function get_searchable_post_types()
+	{
+		$post_types = array();
+
+		foreach (get_post_types(array(), 'objects') as $post_type) {
+			if (true === $post_type->show_ui) {
+				$post_types[] = $post_type->name;
+			}
+		}
+
+		return array_values(
+			(array) apply_filters(
+				'su/generator/search_posts/post_types',
+				$post_types
+			)
+		);
+	}
+
+	private static function format_post_search_result($post)
+	{
+		$post_type = get_post_type_object($post->post_type);
+		$post_type_label = $post_type ? $post_type->labels->singular_name : $post->post_type;
+		$title = get_the_title($post);
+
+		if ('' === $title) {
+			$title = __('(no title)', 'shortcodes-ultimate');
+		}
+
+		return array(
+			'value' => (string) $post->ID,
+			'label' => sprintf(
+				'%1$s (#%2$d, %3$s)',
+				$title,
+				$post->ID,
+				$post_type_label
+			),
+		);
 	}
 
 	public static function presets($actions)
@@ -727,6 +858,30 @@ class Su_Generator
 
 		return $shortcodes;
 
+	}
+
+	public static function get_shortcodes_grouped()
+	{
+
+		$result = [];
+		$groups = su_get_groups();
+		$shortcodes = self::get_shortcodes();
+
+		foreach ($groups as $group => $group_title) {
+			$group_shortcodes = array_filter($shortcodes, function ($shortcode) use ($group) {
+				return $shortcode['group'] === $group;
+			});
+
+			if (count($group_shortcodes)) {
+				$result[$group] = [
+					'id' => $group,
+					'title' => $group_title,
+					'shortcodes' => $group_shortcodes,
+				];
+			}
+		}
+
+		return $result;
 	}
 
 	/**

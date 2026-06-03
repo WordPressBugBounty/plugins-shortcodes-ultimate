@@ -7,7 +7,7 @@ su_add_shortcode(
 		'image'    => su_get_plugin_url() . 'admin/images/shortcodes/posts.svg',
 		'name'     => __( 'Posts', 'shortcodes-ultimate' ),
 		'type'     => 'single',
-		'group'    => 'other',
+		'group'    => 'content',
 		'article'  => 'https://getshortcodes.com/docs/posts/',
 		'atts'     => array(
 			'template'            => array(
