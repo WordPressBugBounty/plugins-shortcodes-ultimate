@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, shortcode generator, gutenberg, content
-Stable tag: 7.6.0
+Stable tag: 7.6.2
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -200,7 +200,7 @@ Upgrade normally
 
 
 
-= 7.6.0 =
+= 7.6.2 =
 
 Big update for the Shortcode Generator tool!
 
