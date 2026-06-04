@@ -43,7 +43,7 @@ class Shortcodes_Ultimate_Admin_Pro_Features {
         return array(
             // array(
             // 	'id'   => 'posts_grid',
-            // 	'name' => __( 'PostsGrid', 'shortcodes-ultimate' ),
+            // 	'name' => __( 'Posts Grid', 'shortcodes-ultimate' ),
             // 	'group' => 'content',
             // ),
             array(

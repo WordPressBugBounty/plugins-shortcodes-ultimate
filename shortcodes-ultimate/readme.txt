@@ -2,23 +2,23 @@
 Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: shortcode, shortcodes, shortcode generator, gutenberg, content
-Stable tag: 7.6.2
+Tags: shortcode, shortcodes, carousel, lightbox, block editor
+Stable tag: 7.6.4
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
 
 
-Create tabs, accordions, buttons, sliders, boxes and reusable content elements with 50+ WordPress shortcodes.
+Add 50+ shortcodes with live preview for tabs, accordions, buttons, FAQs, sliders and boxes. Works in Block Editor and Classic Editor.
 
 
 == Description ==
 
-[Shortcodes Ultimate](https://getshortcodes.com/?utm_campaign=wporg&utm_medium=readme&utm_source=description) is a WordPress shortcode plugin for adding reusable content elements without coding.
+[Shortcodes Ultimate](https://getshortcodes.com/?utm_campaign=wporg&utm_medium=readme&utm_source=description) is a WordPress shortcode plugin for adding tabs, accordions, buttons, FAQs, sliders, carousels, lightboxes, columns, boxes and other reusable content elements without coding. It is ideal for site owners who want richer content layouts and practical UI elements without switching to a full page builder.
 
-Create tabs, accordions, buttons, boxes, sliders, carousels, lightboxes, columns, post lists and other visual elements directly inside WordPress posts, pages, widgets and templates.
+Use Shortcodes Ultimate in the Block Editor, Classic Editor, widgets and template files. Generate shortcodes visually, preview the result before inserting it, and reuse the same elements across posts, pages and existing shortcode-based content.
 
-Use it when you need a practical content toolkit for blogs, business websites, affiliate sites, documentation, landing pages, client projects or existing WordPress sites with shortcode-based content.
+Trusted by hundreds of thousands of WordPress sites, Shortcodes Ultimate helps you replace multiple single-purpose UI plugins with one maintained toolkit. [Explore live examples](https://getshortcodes.com/docs-category/shortcodes/?utm_campaign=wporg&utm_medium=readme&utm_source=demos)
 
 https://www.youtube.com/watch?v=_bPBo-Ao_9o
 
@@ -97,26 +97,36 @@ Shortcodes Ultimate Pro adds advanced shortcodes, additional styles, Content Sli
 
 == Installation ==
 
-= From within dashboard (recommended) =
+= Quick start =
 
-1. Navigate to _Dashboard – Plugins – Add New_;
-2. Search for _Shortcodes Ultimate_;
-3. Click _Install_, then _Activate_.
-
-[Video Tutorial](https://www.youtube.com/watch?v=6xhplrZJD9c).
-
+1. Go to **Plugins → Add New** in your WordPress dashboard.
+2. Search for **Shortcodes Ultimate**.
+3. Click **Install Now**, then **Activate**.
+4. Open any post or page and click **Insert Shortcode**.
+5. Choose a shortcode such as **Accordion**, **Tabs** or **Button**, adjust the settings, and insert it.
+6. Preview or publish the page to see the result.
 
 = Manual installation =
 
-1. Download the plugin as a `.zip` file;
-2. Unzip downloaded archive and upload `shortcodes-ultimate` folder under your `/wp-content/plugins/` directory (resulted plugin path should be `/wp-content/plugins/shortcodes-ultimate/`);
-3. Navigate to *Dashboard – Plugins* and activate the plugin.
+1. Download the plugin ZIP file.
+2. Upload it via **Plugins → Add New → Upload Plugin**, or extract it to `/wp-content/plugins/shortcodes-ultimate/`.
+3. Activate the plugin from the **Plugins** screen in WordPress.
+4. Open any post or page, insert your first shortcode, and preview the result.
+
+= Requirements =
+
+* WordPress 6.0 or higher
+* PHP 7.0 or higher
+
+= Video tutorial =
+
+https://www.youtube.com/watch?v=6xhplrZJD9c
 
 
 == Screenshots ==
 
 1. Frontend examples of popular shortcodes: tabs, accordion, button and content box.
-2. Insert Shortcode window with searchable shortcode list.
+2. Search, preview and insert any shortcode in seconds — the visual generator groups elements by type and shows a live preview before you add them to your content.
 3. Visual shortcode settings with configurable options.
 4. Accordion shortcode example for FAQ sections.
 5. Tabs shortcode example for organizing long content.
@@ -130,33 +140,33 @@ Shortcodes Ultimate Pro adds advanced shortcodes, additional styles, Content Sli
 
 = Does Shortcodes Ultimate work with the WordPress Block Editor? =
 
-Yes. Shortcodes Ultimate works with the WordPress Block Editor. You can insert shortcodes into Shortcode blocks, Paragraph blocks and Classic blocks. You can also use the plugin's Insert Shortcode workflow to configure a shortcode visually and insert the generated shortcode into your content.
+Yes. You can insert generated shortcodes into a Shortcode block, Paragraph block or Classic block, and you can build them visually with the Insert Shortcode tool before adding them to your content.
 
-= Does it work with the Classic Editor? =
+= Does it work with existing shortcode-based content? =
 
-Yes. Shortcodes Ultimate works with the Classic Editor and remains useful for sites that still use classic WordPress editing workflows.
+Yes. Shortcodes Ultimate is useful both for new pages and for older WordPress sites that already rely on shortcodes. You can keep existing content working and gradually improve it without rebuilding everything in a page builder.
 
-= Can I use Shortcodes Ultimate with Elementor? =
+= Can I use Shortcodes Ultimate with Elementor, widgets or template files? =
 
-Yes. You can use WordPress shortcodes inside Elementor shortcode widgets and other areas that support shortcodes. Shortcodes Ultimate Pro also includes Elementor support for smoother workflows.
+Yes. You can use Shortcodes Ultimate anywhere WordPress shortcodes are supported, including Elementor shortcode widgets, many widget areas, and template files via `do_shortcode()`.
 
-= Can I use shortcodes in widgets? =
+= Do I need coding skills to use it? =
 
-Yes. You can use Shortcodes Ultimate in widget areas and other WordPress areas where shortcodes are processed by your theme, WordPress setup or plugins.
-
-= Can I use shortcodes in template files? =
-
-Yes. Developers can output shortcodes in theme or plugin template files using WordPress shortcode functions such as do_shortcode(). For example:
-
-`<?php echo do_shortcode('[su_button url="https://example.com"]Click me[/su_button]'); ?>`
-
-Use this carefully and only in places where you control the shortcode content.
+No. Most users can create and insert shortcodes through the visual generator and live preview without writing shortcode syntax manually.
 
 = Why should I use shortcodes instead of blocks? =
 
 Blocks are excellent for visual editing. Shortcodes are useful when you need reusable content elements that can work across posts, pages, widgets, templates and older content.
 
 Shortcodes Ultimate is especially helpful for hybrid WordPress sites, older sites, content-heavy sites and workflows where you want a simple way to insert the same type of element in many places.
+
+= Where can I see examples and documentation before I start? =
+
+Documentation: https://getshortcodes.com/docs/?utm_campaign=wporg&utm_medium=readme&utm_source=faq_docs
+
+Support: https://getshortcodes.com/support/?utm_campaign=wporg&utm_medium=readme&utm_source=faq_support
+
+Live examples: https://getshortcodes.com/docs-category/shortcodes/?utm_campaign=wporg&utm_medium=readme&utm_source=faq_examples
 
 = Is there a free version? =
 
@@ -174,22 +184,6 @@ Shortcodes Ultimate is designed to work with most properly coded WordPress theme
 
 Yes. Shortcodes Ultimate includes styling options for many shortcodes and a Custom CSS editor for additional adjustments.
 
-= Do I need coding skills to use it? =
-
-No. Most users can insert and configure shortcodes through the visual shortcode generator. Developers can also use shortcodes manually or inside template files when needed.
-
-= Where can I find documentation? =
-
-Documentation is available here:
-
-https://getshortcodes.com/docs/?utm_campaign=wporg&utm_medium=readme&utm_source=faq_docs
-
-= Where can I get support? =
-
-Free users can use the WordPress.org support forum. Pro users can access premium support through the Shortcodes Ultimate website:
-
-https://getshortcodes.com/support/?utm_campaign=wporg&utm_medium=readme&utm_source=faq_support
-
 
 == Upgrade Notice ==
 
@@ -200,9 +194,9 @@ Upgrade normally
 
 
 
-= 7.6.2 =
+= 7.6.4 =
 
-Big update for the Shortcode Generator tool!
+**Big update for the Shortcode Generator tool!**
 
 I've improved the tool to make it even easier and more pleasant to use. It now includes an always-visible live preview, a grouped list of shortcodes, a reset settings button, a copy shortcode button, and many other helpful improvements.
 
@@ -210,11 +204,14 @@ With the new live preview, you can instantly see how your shortcode will look wh
 
 Take a look at the updated interface here:
 
-Main window screenshot:
-[https://ps.w.org/shortcodes-ultimate/assets/screenshot-2.png?rev=3536023](https://ps.w.org/shortcodes-ultimate/assets/screenshot-2.png?rev=3536023)
+- [Main window screenshot](https://ps.w.org/shortcodes-ultimate/assets/screenshot-2.png?rev=3536023)
+- [Shortcode Settings screenshot](https://ps.w.org/shortcodes-ultimate/assets/screenshot-3.png?rev=3536023)
 
-Shortcode Settings screenshot:
-[https://ps.w.org/shortcodes-ultimate/assets/screenshot-3.png?rev=3536023](https://ps.w.org/shortcodes-ultimate/assets/screenshot-3.png?rev=3536023)
+**PLUS:**
+
+- Fixed an issue in the Shortcode Generator preview where the Image Carousel showed an extra script
+- Fixed an issue in the Shortcode Generator preview where the YouTube Advanced preview wasn’t working
+- Updated plugin README.txt
 
 
 = 7.5.3 =
@@ -232,39 +229,6 @@ Shortcode Settings screenshot:
 
 - Fixed "WP_Scripts::add was called incorrectly" notice on WordPress 6.9.1
 - Improved input sanitization in several shortcodes
-
-
-= 7.4.10 =
-
-This update features security improvements and is recommended for all users
-
-
-= 7.4.9 =
-
-This update features security improvements and is recommended for all users
-
-
-= 7.4.8 =
-
-Security update for the Lightbox shortcode
-
-
-= 7.4.7 =
-
-Tested with WordPress 6.9 (scheduled for release on December 2, 2025)
-
-
-= 7.4.6 =
-
-This update features security improvements and is recommended for all users
-Updated Freemius SDK
-
-
-= 7.4.5 =
-
-This update features security improvements and is recommended for all users
-
-If you're experiencing any issues with the premium add-ons, please visit the [Restore Purchase](https://getshortcodes.com/account/restore-purchase/) page to download the latest versions. Most likely, the issue has already been fixed.
 
 
 **Older changelog entries are available in the changelog.txt file**

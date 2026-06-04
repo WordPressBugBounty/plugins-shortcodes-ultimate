@@ -1,3 +1,36 @@
+= 7.4.10 =
+
+This update features security improvements and is recommended for all users
+
+
+= 7.4.9 =
+
+This update features security improvements and is recommended for all users
+
+
+= 7.4.8 =
+
+Security update for the Lightbox shortcode
+
+
+= 7.4.7 =
+
+Tested with WordPress 6.9 (scheduled for release on December 2, 2025)
+
+
+= 7.4.6 =
+
+This update features security improvements and is recommended for all users
+Updated Freemius SDK
+
+
+= 7.4.5 =
+
+This update features security improvements and is recommended for all users
+
+If you're experiencing any issues with the premium add-ons, please visit the [Restore Purchase](https://getshortcodes.com/account/restore-purchase/) page to download the latest versions. Most likely, the issue has already been fixed.
+
+
 = 7.4.4 =
 
 This update features security improvements and is recommended for all users

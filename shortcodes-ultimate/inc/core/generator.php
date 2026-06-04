@@ -422,8 +422,9 @@ class Su_Generator
 		self::access();
 		// Output results
 		do_action('su/generator/preview/before');
+		$shortcode = wp_unslash($_POST['shortcode']);
 		echo '<h5>' . __('Preview', 'shortcodes-ultimate') . '</h5>';
-		echo wp_kses_post(do_shortcode(wp_unslash($_POST['shortcode'])));
+		echo apply_filters('su/generator/preview/output', do_shortcode($shortcode), $shortcode);
 		echo '<div style="clear:both"></div>';
 		do_action('su/generator/preview/after');
 		die();
