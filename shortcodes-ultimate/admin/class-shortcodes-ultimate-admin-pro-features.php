@@ -16,6 +16,7 @@ class Shortcodes_Ultimate_Admin_Pro_Features {
                 'callback'           => '__return_empty_string',
                 'atts'               => array(),
                 'generator_callback' => array($this, 'generator_callback'),
+                'is_pro'             => true,
             ) ) );
         }
     }
@@ -41,11 +42,11 @@ class Shortcodes_Ultimate_Admin_Pro_Features {
 
     private function get_shortcodes() {
         return array(
-            // array(
-            // 	'id'   => 'posts_grid',
-            // 	'name' => __( 'Posts Grid', 'shortcodes-ultimate' ),
-            // 	'group' => 'content',
-            // ),
+            array(
+                'id'    => 'posts_grid',
+                'name'  => __( 'Posts Grid', 'shortcodes-ultimate' ),
+                'group' => 'content',
+            ),
             array(
                 'id'    => 'splash',
                 'name'  => __( 'Splash screen', 'shortcodes-ultimate' ),
@@ -120,7 +121,7 @@ class Shortcodes_Ultimate_Admin_Pro_Features {
                 'id'    => 'shadow',
                 'name'  => __( 'Shadow', 'shortcodes-ultimate' ),
                 'group' => 'other',
-            ),
+            )
         );
     }
 

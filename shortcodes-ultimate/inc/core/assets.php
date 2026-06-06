@@ -85,7 +85,7 @@ class Su_Assets {
 		wp_register_script( 'jplayer', plugins_url( 'vendor/jplayer/jplayer.js', SU_PLUGIN_FILE ), array( 'jquery' ), '2.4.0', true );
 		// Generator
 		wp_register_style( 'su-generator', plugins_url( 'admin/css/generator.css', SU_PLUGIN_FILE ), array( 'farbtastic', 'magnific-popup', 'simpleslider' ), SU_PLUGIN_VERSION, 'all' );
-		wp_register_script( 'su-generator', plugins_url( 'includes/js/generator/index.js', SU_PLUGIN_FILE ), array( 'farbtastic', 'magnific-popup', 'simpleslider' ), SU_PLUGIN_VERSION, true );
+		wp_register_script( 'su-generator', plugins_url( 'includes/js/generator/index.js', SU_PLUGIN_FILE ), array( 'farbtastic', 'magnific-popup', 'jquery-ui-sortable', 'simpleslider' ), SU_PLUGIN_VERSION, true );
 		wp_localize_script( 'su-generator', 'SUGL10n', array(
 				'upload_title'         => __( 'Choose file', 'shortcodes-ultimate' ),
 				'upload_insert'        => __( 'Insert', 'shortcodes-ultimate' ),
