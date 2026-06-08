@@ -48,6 +48,11 @@ class Shortcodes_Ultimate_Admin_Pro_Features {
                 'group' => 'content',
             ),
             array(
+                'id'    => 'countdown',
+                'name'  => __( 'Countdown Timer', 'shortcodes-ultimate' ),
+                'group' => 'content',
+            ),
+            array(
                 'id'    => 'splash',
                 'name'  => __( 'Splash screen', 'shortcodes-ultimate' ),
                 'group' => 'box',

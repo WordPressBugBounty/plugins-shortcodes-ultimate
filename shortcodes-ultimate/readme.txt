@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, carousel, lightbox, block editor
-Stable tag: 7.7.0
+Stable tag: 7.8.1
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -194,9 +194,17 @@ Upgrade normally
 
 
 
+= 7.8.0 - 7.8.1 =
+
+- Added [Countdown Timer](https://getshortcodes.com/docs/countdown-timer/), a new Pro shortcode for creating high-impact launch, sale, event, and deadline timers. It helps draw attention to time-sensitive offers with animated digits, flexible date and time settings, customizable labels, separators, colors, spacing, and clear post-expiration behavior.
+- Added wordpress.org Live Preview support. You can now preview the plugin right in your browser. [Check it out now!](https://wordpress.org/plugins/shortcodes-ultimate/?preview=1)
+- Improved the Admin UI with small usability and polish updates.
+- Fixed translation handling so all plugin strings are now translatable.
+
+
 = 7.7.0 =
 
-- Added Posts Grid, a new Pro shortcode for building friendly, responsive post layouts with less setup. Use it to query posts, pages, or custom post types; narrow results by taxonomy terms, authors, included or excluded posts, and keywords; then display everything as a grid or list with flexible columns, spacing, featured images, meta, excerpts, read more links, and AJAX or deep-link pagination.
+- Added [Posts Grid](https://getshortcodes.com/docs/posts-grid/), a new Pro shortcode for building friendly, responsive post layouts with less setup. Use it to query posts, pages, or custom post types; narrow results by taxonomy terms, authors, included or excluded posts, and keywords; then display everything as a grid or list with flexible columns, spacing, featured images, meta, excerpts, read more links, and AJAX or deep-link pagination.
 - Improved Drop Cap shortcode compatibility with the Astra theme
 - Fixed the Getting Started video on the plugin About page in the admin area
 - Added new icons and other improvements to the Shortcode Generator

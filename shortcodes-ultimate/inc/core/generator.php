@@ -166,7 +166,11 @@ class Su_Generator
 		wp_localize_script(
 			'shortcodes-ultimate-block-editor',
 			'SUBlockEditorL10n',
-			array('insertShortcode' => __('Insert shortcode', 'shortcodes-ultimate'))
+			array(
+				'insertShortcode' => __('Insert shortcode', 'shortcodes-ultimate'),
+				'livePreviewTitle' => __('Live Preview', 'shortcodes-ultimate'),
+				'livePreviewDescription' => __('This is a Live Preview. Click this button to open the shortcode generator and try the plugin.', 'shortcodes-ultimate'),
+			)
 		);
 
 		wp_localize_script(
@@ -176,6 +180,7 @@ class Su_Generator
 				'supportedBlocks' => get_option('su_option_supported_blocks', array()),
 				'showToolbarButton' => get_option('su_option_show_toolbar_button', 'on'),
 				'showBlockControlsButton' => get_option('su_option_show_block_controls_button', 'on'),
+				'isLivePreview' => su_is_live_preview_request(),
 			)
 		);
 
@@ -294,7 +299,7 @@ class Su_Generator
 							)
 						);
 						?>
-						<a href="<?php echo esc_attr(su_get_utm_link('https://getshortcodes.com/pricing/', 'wp-dashboard', 'generator', 'pro-nag')) ?>" target="_blank" class="su-generator-pro-nag-block-link"><?php _e('Shortcodes Ultimate Pro', 'shortcodes-ultimate') ?></a>
+						<a href="<?php echo esc_attr(su_get_utm_link('https://getshortcodes.com/pricing/', 'wp-dashboard', 'generator', 'pro-nag')) ?>" target="_blank" class="su-generator-pro-nag-block-link" tabindex="-1" aria-hidden="true"><?php _e('Shortcodes Ultimate Pro', 'shortcodes-ultimate') ?></a>
 					</div>
 				<?php endif; ?>
 				<div id="su-generator-choices">

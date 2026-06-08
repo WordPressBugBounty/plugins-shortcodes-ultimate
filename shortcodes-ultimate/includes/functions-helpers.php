@@ -418,6 +418,17 @@ function su_get_current_url() {
 
 }
 
+/**
+ * Check whether the current request is a Live Preview request.
+ *
+ * @return bool
+ */
+function su_is_live_preview_request() {
+
+	return isset($_GET['live_preview']);
+
+}
+
 function su_is_unsafe_features_enabled() {
 	return 'on' === get_option( 'su_option_unsafe_features' );
 }
