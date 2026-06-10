@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, carousel, lightbox, block editor
-Stable tag: 7.8.1
+Stable tag: 7.8.2
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -192,6 +192,12 @@ Upgrade normally
 
 == Changelog ==
 
+
+
+= 7.8.2 =
+
+- Fixed a JavaScript error (`_prelude.js:1 Uncaught Error: Cannot find module '5'`) that could prevent shortcodes from working. Sorry for the inconvenience this caused.
+- Fixed an issue where the Spacer shortcode was not displayed in the shortcode generator.
 
 
 = 7.8.0 - 7.8.1 =
