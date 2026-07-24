@@ -225,8 +225,23 @@ class Su_Generator
 
 	}
 
+	public static function normalize_shortcode($shortcode)
+	{
+		$shortcode = is_array($shortcode) ? $shortcode : array();
+
+		foreach (array('name' => 'untitled-shortcode', 'desc' => '', 'group' => 'other', 'atts' => array()) as $key => $value) {
+			if (!isset($shortcode[$key])) {
+				$shortcode[$key] = $value;
+			}
+		}
+
+		return $shortcode;
+	}
+
 	public static function get_choice_icon($shortcode_id, $shortcode)
 	{
+		$shortcode = self::normalize_shortcode($shortcode);
+
 		if (!isset($shortcode['icon'])) {
 			$shortcode['icon'] = 'puzzle-piece';
 		}
@@ -241,12 +256,6 @@ class Su_Generator
 
 		if (strpos($shortcode['icon'], '/') === false) {
 			$shortcode['icon'] = 'icon:' . $shortcode['icon'];
-		}
-
-		$shortcode['name'] = (isset($shortcode['name'])) ? $shortcode['name'] : 'untitled-shortcode';
-
-		if (!isset($shortcode['desc'])) {
-			$shortcode['desc'] = '';
 		}
 
 		return su_html_icon($shortcode['icon']);
@@ -523,7 +532,7 @@ class Su_Generator
 		if (empty($_REQUEST['shortcode']))
 			wp_die(__('Shortcode not specified', 'shortcodes-ultimate'));
 		// Request queried shortcode
-		$shortcode = su_get_shortcode(sanitize_key($_REQUEST['shortcode']));
+		$shortcode = self::normalize_shortcode(su_get_shortcode(sanitize_key($_REQUEST['shortcode'])));
 		// Call custom callback
 		if (
 			isset($shortcode['generator_callback']) &&
@@ -1025,7 +1034,7 @@ class Su_Generator
 		}
 
 		// Get shortcode data
-		$shortcode = su_get_shortcode($args['id']);
+		$shortcode = self::normalize_shortcode(su_get_shortcode($args['id']));
 
 		// Prepare shortcode prefix
 		$prefix = get_option('su_option_prefix');
@@ -1119,6 +1128,10 @@ class Su_Generator
 				array(__CLASS__, 'filter_deprecated_shortcodes')
 			);
 
+		}
+
+		foreach ($shortcodes as $shortcode_id => $shortcode) {
+			$shortcodes[$shortcode_id] = self::normalize_shortcode($shortcode);
 		}
 
 		return $shortcodes;

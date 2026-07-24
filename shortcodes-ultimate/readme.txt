@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, carousel, lightbox, block editor
-Stable tag: 7.8.2
+Stable tag: 7.8.4
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.0
@@ -13,6 +13,14 @@ Add 50+ shortcodes with live preview for tabs, accordions, buttons, FAQs, slider
 
 
 == Description ==
+
+= Building new pages with Gutenberg? =
+
+Explore VovaBlocks, a focused collection of native marketing and content blocks from the creator of Shortcodes Ultimate.
+
+[View VovaBlocks →](https://wordpress.org/plugins/vova-blocks/)
+
+= About Shortcodes Ultimate =
 
 [Shortcodes Ultimate](https://getshortcodes.com/?utm_campaign=wporg&utm_medium=readme&utm_source=description) is a WordPress shortcode plugin for adding tabs, accordions, buttons, FAQs, sliders, carousels, lightboxes, columns, boxes and other reusable content elements without coding. It is ideal for site owners who want richer content layouts and practical UI elements without switching to a full page builder.
 
@@ -192,6 +200,18 @@ Upgrade normally
 
 == Changelog ==
 
+
+= 7.8.4 =
+
+- Updated readme.txt
+- Updated Freemius SDK
+
+
+= 7.8.3 =
+
+- Added a redirect option to the Countdown Timer shortcode, allowing visitors to be redirected to a specified URL after the countdown expires.
+- Fixed a PHP warning in the shortcode generator when a shortcode definition does not include a description.
+- Updated Freemius SDK.
 
 
 = 7.8.2 =

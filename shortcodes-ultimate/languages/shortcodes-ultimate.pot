@@ -22,64 +22,64 @@ msgctxt "Custom shortcodes group name"
 msgid "Pro Shortcodes"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:73, includes/config/popular-shortcodes.php:8, includes/shortcodes/posts.php:215, includes/shortcodes/pro/posts-grid.php:10
-msgid "Posts Grid"
-msgstr ""
-
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:78, includes/shortcodes/pro/countdown.php:6
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:73, includes/shortcodes/pro/countdown.php:6
 msgid "Countdown Timer"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:83, includes/shortcodes/pro/splash.php:6
-msgid "Splash screen"
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:78, includes/config/popular-shortcodes.php:8, includes/shortcodes/posts.php:215, includes/shortcodes/pro/posts-grid.php:10
+msgid "Posts Grid"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:88, includes/shortcodes/pro/exit-popup.php:6
-msgid "Exit popup"
-msgstr ""
-
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:93, includes/shortcodes/pro/panel.php:6
-msgid "Panel"
-msgstr ""
-
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:98, includes/shortcodes/pro/photo-panel.php:6
-msgid "Photo panel"
-msgstr ""
-
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:103, includes/shortcodes/pro/icon-panel.php:6
-msgid "Icon panel"
-msgstr ""
-
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:108, includes/shortcodes/pro/icon-text.php:6
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:83, includes/shortcodes/pro/icon-text.php:6
 msgid "Text with icon"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:113, includes/shortcodes/pro/progress-pie.php:6
-msgid "Progress pie"
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:88, admin/class-shortcodes-ultimate-maker-editor.php:106, admin/class-shortcodes-ultimate-maker-editor.php:291, includes/class-shortcodes-ultimate-maker-post-type.php:147, includes/shortcodes/button.php:97, includes/shortcodes/list.php:15, includes/shortcodes/service.php:21, includes/shortcodes/spoiler.php:47, includes/shortcodes/pro/icon-panel.php:63, includes/shortcodes/pro/icon-text.php:25, includes/shortcodes/pro/icon.php:6, includes/shortcodes/pro/icon.php:18, includes/shortcodes/pro/pricing-table.php:111
+msgid "Icon"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:118, includes/shortcodes/pro/progress-bar.php:6
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:93, includes/shortcodes/pro/progress-bar.php:6
 msgid "Progress bar"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:123, includes/shortcodes/pro/member.php:6
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:98, includes/shortcodes/pro/progress-pie.php:6
+msgid "Progress pie"
+msgstr ""
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:103, includes/shortcodes/pro/exit-popup.php:6
+msgid "Exit popup"
+msgstr ""
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:108, includes/shortcodes/pro/icon-panel.php:6
+msgid "Icon panel"
+msgstr ""
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:113, includes/shortcodes/pro/member.php:6
 msgid "Member"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:128, includes/shortcodes/pro/section.php:6
-msgid "Section"
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:118, includes/shortcodes/pro/panel.php:6
+msgid "Panel"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:133, includes/shortcodes/pro/pricing-table.php:6
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:123, includes/shortcodes/pro/photo-panel.php:6
+msgid "Photo panel"
+msgstr ""
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:128, includes/shortcodes/pro/pricing-table.php:6
 msgid "Pricing table"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:138, includes/shortcodes/pro/testimonial.php:6
-msgid "Testimonial"
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:133, includes/shortcodes/pro/section.php:6
+msgid "Section"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:143, admin/class-shortcodes-ultimate-maker-editor.php:106, admin/class-shortcodes-ultimate-maker-editor.php:291, includes/class-shortcodes-ultimate-maker-post-type.php:147, includes/shortcodes/button.php:97, includes/shortcodes/list.php:15, includes/shortcodes/service.php:21, includes/shortcodes/spoiler.php:47, includes/shortcodes/pro/icon-panel.php:63, includes/shortcodes/pro/icon-text.php:25, includes/shortcodes/pro/icon.php:6, includes/shortcodes/pro/icon.php:18, includes/shortcodes/pro/pricing-table.php:111
-msgid "Icon"
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:138, includes/shortcodes/pro/splash.php:6
+msgid "Splash screen"
+msgstr ""
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:143, includes/shortcodes/pro/testimonial.php:6
+msgid "Testimonial"
 msgstr ""
 
 #: admin/class-shortcodes-ultimate-admin-pro-features.php:148, includes/shortcodes/pro/content-slider.php:6
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Get more styles for this shortcode with the <nobr>PRO version</nobr>"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:173, inc/core/generator.php:271, inc/core/generator.php:271, admin/partials/notices/pro.php:3, admin/partials/pages/about.php:55, admin/partials/pages/about.php:78
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:173, inc/core/generator.php:280, inc/core/generator.php:280, admin/partials/notices/pro.php:3, admin/partials/pages/about.php:55, admin/partials/pages/about.php:78
 msgid "Upgrade to PRO"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 msgid "This option enables alternative (deprecated) mode for nested shortcodes."
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-settings.php:222, admin/class-shortcodes-ultimate-admin-settings.php:223, admin/class-shortcodes-ultimate-admin-settings.php:344, inc/core/generator.php:266, admin/partials/notices/unsafe-features.php:19
+#: admin/class-shortcodes-ultimate-admin-settings.php:222, admin/class-shortcodes-ultimate-admin-settings.php:223, admin/class-shortcodes-ultimate-admin-settings.php:344, inc/core/generator.php:275, admin/partials/notices/unsafe-features.php:19
 msgid "Settings"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgstr ""
 msgid "Shortcodes Ultimate is not activated, because it requires WordPress version %1$s (or higher). You have version %2$s."
 msgstr ""
 
-#: includes/class-shortcodes-ultimate-elementor.php:45, inc/core/generator.php:64, inc/core/generator.php:133, inc/core/generator.php:170, inc/core/generator.php:539
+#: includes/class-shortcodes-ultimate-elementor.php:45, inc/core/generator.php:64, inc/core/generator.php:133, inc/core/generator.php:170, inc/core/generator.php:548
 msgid "Insert shortcode"
 msgstr ""
 
@@ -969,7 +969,7 @@ msgstr ""
 msgid "Ridge"
 msgstr ""
 
-#: inc/core/generator-views.php:619, includes/shortcodes/pro/countdown.php:255, includes/shortcodes/pro/exit-popup.php:48, includes/shortcodes/pro/splash.php:48
+#: inc/core/generator-views.php:619, includes/shortcodes/pro/countdown.php:270, includes/shortcodes/pro/exit-popup.php:48, includes/shortcodes/pro/splash.php:48
 msgid "Opacity"
 msgstr ""
 
@@ -1013,96 +1013,96 @@ msgstr ""
 msgid "This is a Live Preview. Click this button to open the shortcode generator and try the plugin."
 msgstr ""
 
-#: inc/core/generator.php:266
+#: inc/core/generator.php:275
 msgid "Plugin settings"
 msgstr ""
 
-#: inc/core/generator.php:267, inc/core/generator.php:267
+#: inc/core/generator.php:276, inc/core/generator.php:276
 msgid "Plugin homepage"
 msgstr ""
 
-#: inc/core/generator.php:279
+#: inc/core/generator.php:288
 msgid "Insert Shortcode"
 msgstr ""
 
-#: inc/core/generator.php:282
+#: inc/core/generator.php:291
 msgid "Search for shortcodes"
 msgstr ""
 
-#: inc/core/generator.php:283, inc/core/generator.php:283
+#: inc/core/generator.php:292, inc/core/generator.php:292
 msgid "Clear search"
 msgstr ""
 
-#: inc/core/generator.php:288
+#: inc/core/generator.php:297
 msgid "Pro Tip"
 msgstr ""
 
-#: inc/core/generator.php:288
+#: inc/core/generator.php:297
 msgid "Hit enter to select highlighted shortcode, while searching"
 msgstr ""
 
 #. translators: %s is replaced with "Shortcodes Ultimate Pro link"
-#: inc/core/generator.php:294
+#: inc/core/generator.php:303
 msgid "Unlock 15 additional shortcodes, 60+ styles, and create your own shortcodes with %s"
 msgstr ""
 
-#: inc/core/generator.php:298, inc/core/generator.php:302
+#: inc/core/generator.php:307, inc/core/generator.php:311
 msgid "Shortcodes Ultimate Pro"
 msgstr ""
 
-#: inc/core/generator.php:494
+#: inc/core/generator.php:503
 msgid "Click to set this value"
 msgstr ""
 
-#: inc/core/generator.php:512, includes/config/groups.php:7, includes/shortcodes/pro/icon-text.php:9
+#: inc/core/generator.php:521, includes/config/groups.php:7, includes/shortcodes/pro/icon-text.php:9
 msgid "Content"
 msgstr ""
 
-#: inc/core/generator.php:524
+#: inc/core/generator.php:533
 msgid "Shortcode not specified"
 msgstr ""
 
-#: inc/core/generator.php:540, inc/core/generator.php:540, inc/core/generator.php:540
+#: inc/core/generator.php:549, inc/core/generator.php:549, inc/core/generator.php:549
 msgid "Copy shortcode"
 msgstr ""
 
-#: inc/core/generator.php:540
+#: inc/core/generator.php:549
 msgid "Copied"
 msgstr ""
 
-#: inc/core/generator.php:541, inc/core/generator.php:541
+#: inc/core/generator.php:550, inc/core/generator.php:550
 msgid "Reset Settings"
 msgstr ""
 
-#: inc/core/generator.php:555, admin/partials/pro-features/generator.php:2
+#: inc/core/generator.php:564, admin/partials/pro-features/generator.php:2
 msgid "Click to return to the shortcodes list"
 msgstr ""
 
-#: inc/core/generator.php:555, admin/partials/pro-features/generator.php:2
+#: inc/core/generator.php:564, admin/partials/pro-features/generator.php:2
 msgid "All shortcodes"
 msgstr ""
 
-#: inc/core/generator.php:625
+#: inc/core/generator.php:634
 msgid "Preview"
 msgstr ""
 
-#: inc/core/generator.php:635
+#: inc/core/generator.php:644
 msgid "Access denied"
 msgstr ""
 
-#: inc/core/generator.php:760
+#: inc/core/generator.php:769
 msgid "(no title)"
 msgstr ""
 
-#: inc/core/generator.php:844
+#: inc/core/generator.php:853
 msgid "Presets"
 msgstr ""
 
-#: inc/core/generator.php:847
+#: inc/core/generator.php:856
 msgid "Save current settings as preset"
 msgstr ""
 
-#: inc/core/generator.php:883, inc/core/generator.php:879
+#: inc/core/generator.php:892, inc/core/generator.php:888
 msgid "Presets not found"
 msgstr ""
 
@@ -1338,11 +1338,11 @@ msgstr ""
 msgid "Accordion"
 msgstr ""
 
-#: includes/shortcodes/accordion.php:15, includes/shortcodes/animate.php:45, includes/shortcodes/audio.php:38, includes/shortcodes/box.php:56, includes/shortcodes/button.php:144, includes/shortcodes/carousel.php:150, includes/shortcodes/column.php:41, includes/shortcodes/csv-table.php:52, includes/shortcodes/custom-gallery.php:93, includes/shortcodes/dailymotion.php:103, includes/shortcodes/display-posts.php:223, includes/shortcodes/divider.php:74, includes/shortcodes/document.php:50, includes/shortcodes/dropcap.php:35, includes/shortcodes/dummy-image.php:38, includes/shortcodes/dummy-text.php:46, includes/shortcodes/expand.php:89, includes/shortcodes/feed.php:39, includes/shortcodes/frame.php:26, includes/shortcodes/gmap.php:58, includes/shortcodes/guests.php:14, includes/shortcodes/heading.php:54, includes/shortcodes/highlight.php:28, includes/shortcodes/image-carousel.php:193, includes/shortcodes/label.php:28, includes/shortcodes/lightbox-content.php:109, includes/shortcodes/lightbox.php:38, includes/shortcodes/list.php:35, includes/shortcodes/members.php:35, includes/shortcodes/menu.php:20, includes/shortcodes/note.php:37, includes/shortcodes/permalink.php:39, includes/shortcodes/private.php:14, includes/shortcodes/pullquote.php:24, includes/shortcodes/qrcode.php:86, includes/shortcodes/quote.php:32, includes/shortcodes/row.php:16, includes/shortcodes/service.php:41, includes/shortcodes/siblings.php:21, includes/shortcodes/slider.php:132, includes/shortcodes/spacer.php:23, includes/shortcodes/spoiler.php:63, includes/shortcodes/subpages.php:27, includes/shortcodes/table.php:34, includes/shortcodes/tabs.php:56, includes/shortcodes/tabs.php:115, includes/shortcodes/tooltip.php:103, includes/shortcodes/video.php:68, includes/shortcodes/vimeo.php:71, includes/shortcodes/youtube-advanced.php:134, includes/shortcodes/youtube.php:60, includes/shortcodes/pro/content-slider.php:79, includes/shortcodes/pro/content-slider.php:107, includes/shortcodes/pro/countdown.php:340, includes/shortcodes/pro/exit-popup.php:88, includes/shortcodes/pro/icon-panel.php:98, includes/shortcodes/pro/icon-text.php:60, includes/shortcodes/pro/icon.php:97, includes/shortcodes/pro/member.php:161, includes/shortcodes/pro/panel.php:86, includes/shortcodes/pro/photo-panel.php:88, includes/shortcodes/pro/posts-grid.php:404, includes/shortcodes/pro/pricing-table.php:29, includes/shortcodes/pro/pricing-table.php:163, includes/shortcodes/pro/progress-bar.php:66, includes/shortcodes/pro/progress-pie.php:98, includes/shortcodes/pro/section.php:132, includes/shortcodes/pro/shadow.php:38, includes/shortcodes/pro/splash.php:97, includes/shortcodes/pro/testimonial.php:87
+#: includes/shortcodes/accordion.php:15, includes/shortcodes/animate.php:45, includes/shortcodes/audio.php:38, includes/shortcodes/box.php:56, includes/shortcodes/button.php:144, includes/shortcodes/carousel.php:150, includes/shortcodes/column.php:41, includes/shortcodes/csv-table.php:52, includes/shortcodes/custom-gallery.php:93, includes/shortcodes/dailymotion.php:103, includes/shortcodes/display-posts.php:223, includes/shortcodes/divider.php:74, includes/shortcodes/document.php:50, includes/shortcodes/dropcap.php:35, includes/shortcodes/dummy-image.php:38, includes/shortcodes/dummy-text.php:46, includes/shortcodes/expand.php:89, includes/shortcodes/feed.php:39, includes/shortcodes/frame.php:26, includes/shortcodes/gmap.php:58, includes/shortcodes/guests.php:14, includes/shortcodes/heading.php:54, includes/shortcodes/highlight.php:28, includes/shortcodes/image-carousel.php:193, includes/shortcodes/label.php:28, includes/shortcodes/lightbox-content.php:109, includes/shortcodes/lightbox.php:38, includes/shortcodes/list.php:35, includes/shortcodes/members.php:35, includes/shortcodes/menu.php:20, includes/shortcodes/note.php:37, includes/shortcodes/permalink.php:39, includes/shortcodes/private.php:14, includes/shortcodes/pullquote.php:24, includes/shortcodes/qrcode.php:86, includes/shortcodes/quote.php:32, includes/shortcodes/row.php:16, includes/shortcodes/service.php:41, includes/shortcodes/siblings.php:21, includes/shortcodes/slider.php:132, includes/shortcodes/spacer.php:23, includes/shortcodes/spoiler.php:63, includes/shortcodes/subpages.php:27, includes/shortcodes/table.php:34, includes/shortcodes/tabs.php:56, includes/shortcodes/tabs.php:115, includes/shortcodes/tooltip.php:103, includes/shortcodes/video.php:68, includes/shortcodes/vimeo.php:71, includes/shortcodes/youtube-advanced.php:134, includes/shortcodes/youtube.php:60, includes/shortcodes/pro/content-slider.php:79, includes/shortcodes/pro/content-slider.php:107, includes/shortcodes/pro/countdown.php:355, includes/shortcodes/pro/exit-popup.php:88, includes/shortcodes/pro/icon-panel.php:98, includes/shortcodes/pro/icon-text.php:60, includes/shortcodes/pro/icon.php:97, includes/shortcodes/pro/member.php:161, includes/shortcodes/pro/panel.php:86, includes/shortcodes/pro/photo-panel.php:88, includes/shortcodes/pro/posts-grid.php:404, includes/shortcodes/pro/pricing-table.php:29, includes/shortcodes/pro/pricing-table.php:163, includes/shortcodes/pro/progress-bar.php:66, includes/shortcodes/pro/progress-pie.php:98, includes/shortcodes/pro/section.php:132, includes/shortcodes/pro/shadow.php:38, includes/shortcodes/pro/splash.php:97, includes/shortcodes/pro/testimonial.php:87
 msgid "Extra CSS class"
 msgstr ""
 
-#: includes/shortcodes/accordion.php:16, includes/shortcodes/animate.php:46, includes/shortcodes/audio.php:39, includes/shortcodes/box.php:57, includes/shortcodes/button.php:145, includes/shortcodes/carousel.php:151, includes/shortcodes/column.php:42, includes/shortcodes/csv-table.php:53, includes/shortcodes/custom-gallery.php:94, includes/shortcodes/dailymotion.php:104, includes/shortcodes/display-posts.php:224, includes/shortcodes/divider.php:75, includes/shortcodes/document.php:51, includes/shortcodes/dropcap.php:36, includes/shortcodes/dummy-image.php:39, includes/shortcodes/dummy-text.php:47, includes/shortcodes/expand.php:90, includes/shortcodes/feed.php:40, includes/shortcodes/gmap.php:59, includes/shortcodes/guests.php:15, includes/shortcodes/heading.php:55, includes/shortcodes/highlight.php:29, includes/shortcodes/image-carousel.php:194, includes/shortcodes/label.php:29, includes/shortcodes/lightbox-content.php:110, includes/shortcodes/lightbox.php:39, includes/shortcodes/list.php:36, includes/shortcodes/members.php:36, includes/shortcodes/menu.php:21, includes/shortcodes/note.php:38, includes/shortcodes/permalink.php:40, includes/shortcodes/private.php:15, includes/shortcodes/pullquote.php:25, includes/shortcodes/qrcode.php:87, includes/shortcodes/quote.php:33, includes/shortcodes/row.php:17, includes/shortcodes/service.php:42, includes/shortcodes/siblings.php:22, includes/shortcodes/slider.php:133, includes/shortcodes/spacer.php:24, includes/shortcodes/spoiler.php:64, includes/shortcodes/subpages.php:28, includes/shortcodes/table.php:35, includes/shortcodes/tabs.php:57, includes/shortcodes/tabs.php:116, includes/shortcodes/tooltip.php:104, includes/shortcodes/video.php:69, includes/shortcodes/vimeo.php:72, includes/shortcodes/youtube-advanced.php:135, includes/shortcodes/youtube.php:61, includes/shortcodes/pro/content-slider.php:80, includes/shortcodes/pro/content-slider.php:108, includes/shortcodes/pro/countdown.php:341, includes/shortcodes/pro/exit-popup.php:89, includes/shortcodes/pro/icon-panel.php:99, includes/shortcodes/pro/icon-text.php:61, includes/shortcodes/pro/icon.php:98, includes/shortcodes/pro/member.php:162, includes/shortcodes/pro/panel.php:87, includes/shortcodes/pro/photo-panel.php:89, includes/shortcodes/pro/posts-grid.php:405, includes/shortcodes/pro/pricing-table.php:164, includes/shortcodes/pro/progress-bar.php:67, includes/shortcodes/pro/progress-pie.php:99, includes/shortcodes/pro/section.php:133, includes/shortcodes/pro/shadow.php:39, includes/shortcodes/pro/splash.php:98, includes/shortcodes/pro/testimonial.php:88
+#: includes/shortcodes/accordion.php:16, includes/shortcodes/animate.php:46, includes/shortcodes/audio.php:39, includes/shortcodes/box.php:57, includes/shortcodes/button.php:145, includes/shortcodes/carousel.php:151, includes/shortcodes/column.php:42, includes/shortcodes/csv-table.php:53, includes/shortcodes/custom-gallery.php:94, includes/shortcodes/dailymotion.php:104, includes/shortcodes/display-posts.php:224, includes/shortcodes/divider.php:75, includes/shortcodes/document.php:51, includes/shortcodes/dropcap.php:36, includes/shortcodes/dummy-image.php:39, includes/shortcodes/dummy-text.php:47, includes/shortcodes/expand.php:90, includes/shortcodes/feed.php:40, includes/shortcodes/gmap.php:59, includes/shortcodes/guests.php:15, includes/shortcodes/heading.php:55, includes/shortcodes/highlight.php:29, includes/shortcodes/image-carousel.php:194, includes/shortcodes/label.php:29, includes/shortcodes/lightbox-content.php:110, includes/shortcodes/lightbox.php:39, includes/shortcodes/list.php:36, includes/shortcodes/members.php:36, includes/shortcodes/menu.php:21, includes/shortcodes/note.php:38, includes/shortcodes/permalink.php:40, includes/shortcodes/private.php:15, includes/shortcodes/pullquote.php:25, includes/shortcodes/qrcode.php:87, includes/shortcodes/quote.php:33, includes/shortcodes/row.php:17, includes/shortcodes/service.php:42, includes/shortcodes/siblings.php:22, includes/shortcodes/slider.php:133, includes/shortcodes/spacer.php:24, includes/shortcodes/spoiler.php:64, includes/shortcodes/subpages.php:28, includes/shortcodes/table.php:35, includes/shortcodes/tabs.php:57, includes/shortcodes/tabs.php:116, includes/shortcodes/tooltip.php:104, includes/shortcodes/video.php:69, includes/shortcodes/vimeo.php:72, includes/shortcodes/youtube-advanced.php:135, includes/shortcodes/youtube.php:61, includes/shortcodes/pro/content-slider.php:80, includes/shortcodes/pro/content-slider.php:108, includes/shortcodes/pro/countdown.php:356, includes/shortcodes/pro/exit-popup.php:89, includes/shortcodes/pro/icon-panel.php:99, includes/shortcodes/pro/icon-text.php:61, includes/shortcodes/pro/icon.php:98, includes/shortcodes/pro/member.php:162, includes/shortcodes/pro/panel.php:87, includes/shortcodes/pro/photo-panel.php:89, includes/shortcodes/pro/posts-grid.php:405, includes/shortcodes/pro/pricing-table.php:164, includes/shortcodes/pro/progress-bar.php:67, includes/shortcodes/pro/progress-pie.php:99, includes/shortcodes/pro/section.php:133, includes/shortcodes/pro/shadow.php:39, includes/shortcodes/pro/splash.php:98, includes/shortcodes/pro/testimonial.php:88
 msgid "Additional CSS class name(s) separated by space(s)"
 msgstr ""
 
@@ -1804,7 +1804,7 @@ msgstr ""
 msgid "Display titles for each item"
 msgstr ""
 
-#: includes/shortcodes/carousel.php:109, includes/shortcodes/custom-gallery.php:73, includes/shortcodes/expand.php:68, includes/shortcodes/frame.php:16, includes/shortcodes/heading.php:31, includes/shortcodes/image-carousel.php:90, includes/shortcodes/lightbox-content.php:76, includes/shortcodes/qrcode.php:50, includes/shortcodes/slider.php:91, includes/shortcodes/tooltip.php:59, includes/shortcodes/pro/countdown.php:117, includes/shortcodes/pro/icon-panel.php:56, includes/shortcodes/pro/member.php:54, includes/shortcodes/pro/panel.php:63, includes/shortcodes/pro/photo-panel.php:54, includes/shortcodes/pro/progress-pie.php:71, includes/shortcodes/pro/section.php:103
+#: includes/shortcodes/carousel.php:109, includes/shortcodes/custom-gallery.php:73, includes/shortcodes/expand.php:68, includes/shortcodes/frame.php:16, includes/shortcodes/heading.php:31, includes/shortcodes/image-carousel.php:90, includes/shortcodes/lightbox-content.php:76, includes/shortcodes/qrcode.php:50, includes/shortcodes/slider.php:91, includes/shortcodes/tooltip.php:59, includes/shortcodes/pro/countdown.php:125, includes/shortcodes/pro/icon-panel.php:56, includes/shortcodes/pro/member.php:54, includes/shortcodes/pro/panel.php:63, includes/shortcodes/pro/photo-panel.php:54, includes/shortcodes/pro/progress-pie.php:71, includes/shortcodes/pro/section.php:103
 msgid "Center"
 msgstr ""
 
@@ -2000,11 +2000,11 @@ msgstr ""
 msgid "Single item height (in pixels)"
 msgstr ""
 
-#: includes/shortcodes/custom-gallery.php:72, includes/shortcodes/expand.php:67, includes/shortcodes/frame.php:15, includes/shortcodes/heading.php:30, includes/shortcodes/image-carousel.php:88, includes/shortcodes/lightbox-content.php:75, includes/shortcodes/pullquote.php:15, includes/shortcodes/qrcode.php:49, includes/shortcodes/tooltip.php:27, includes/shortcodes/tooltip.php:58, includes/shortcodes/pro/countdown.php:116, includes/shortcodes/pro/icon-panel.php:55, includes/shortcodes/pro/member.php:53, includes/shortcodes/pro/panel.php:62, includes/shortcodes/pro/photo-panel.php:53, includes/shortcodes/pro/progress-pie.php:70, includes/shortcodes/pro/section.php:102
+#: includes/shortcodes/custom-gallery.php:72, includes/shortcodes/expand.php:67, includes/shortcodes/frame.php:15, includes/shortcodes/heading.php:30, includes/shortcodes/image-carousel.php:88, includes/shortcodes/lightbox-content.php:75, includes/shortcodes/pullquote.php:15, includes/shortcodes/qrcode.php:49, includes/shortcodes/tooltip.php:27, includes/shortcodes/tooltip.php:58, includes/shortcodes/pro/countdown.php:124, includes/shortcodes/pro/icon-panel.php:55, includes/shortcodes/pro/member.php:53, includes/shortcodes/pro/panel.php:62, includes/shortcodes/pro/photo-panel.php:53, includes/shortcodes/pro/progress-pie.php:70, includes/shortcodes/pro/section.php:102
 msgid "Left"
 msgstr ""
 
-#: includes/shortcodes/custom-gallery.php:74, includes/shortcodes/expand.php:69, includes/shortcodes/frame.php:17, includes/shortcodes/heading.php:32, includes/shortcodes/image-carousel.php:89, includes/shortcodes/lightbox-content.php:77, includes/shortcodes/pullquote.php:16, includes/shortcodes/qrcode.php:51, includes/shortcodes/tooltip.php:28, includes/shortcodes/tooltip.php:60, includes/shortcodes/pro/countdown.php:118, includes/shortcodes/pro/countdown.php:303, includes/shortcodes/pro/icon-panel.php:57, includes/shortcodes/pro/member.php:55, includes/shortcodes/pro/panel.php:64, includes/shortcodes/pro/photo-panel.php:55, includes/shortcodes/pro/progress-pie.php:72, includes/shortcodes/pro/section.php:104
+#: includes/shortcodes/custom-gallery.php:74, includes/shortcodes/expand.php:69, includes/shortcodes/frame.php:17, includes/shortcodes/heading.php:32, includes/shortcodes/image-carousel.php:89, includes/shortcodes/lightbox-content.php:77, includes/shortcodes/pullquote.php:16, includes/shortcodes/qrcode.php:51, includes/shortcodes/tooltip.php:28, includes/shortcodes/tooltip.php:60, includes/shortcodes/pro/countdown.php:126, includes/shortcodes/pro/countdown.php:318, includes/shortcodes/pro/icon-panel.php:57, includes/shortcodes/pro/member.php:55, includes/shortcodes/pro/panel.php:64, includes/shortcodes/pro/photo-panel.php:55, includes/shortcodes/pro/progress-pie.php:72, includes/shortcodes/pro/section.php:104
 msgid "Right"
 msgstr ""
 
@@ -2366,7 +2366,7 @@ msgstr ""
 msgid "This option controls the size of thumbnail images. This option only affects image quality, not the actual thumbnail size."
 msgstr ""
 
-#: includes/shortcodes/display-posts.php:193, includes/shortcodes/tabs.php:90, includes/shortcodes/pro/countdown.php:253, includes/shortcodes/pro/posts-grid.php:378
+#: includes/shortcodes/display-posts.php:193, includes/shortcodes/tabs.php:90, includes/shortcodes/pro/countdown.php:268, includes/shortcodes/pro/posts-grid.php:378
 msgid "Disabled"
 msgstr ""
 
@@ -4085,7 +4085,7 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: includes/shortcodes/tooltip.php:26, includes/shortcodes/pro/countdown.php:302, includes/shortcodes/pro/shadow.php:26
+#: includes/shortcodes/tooltip.php:26, includes/shortcodes/pro/countdown.php:317, includes/shortcodes/pro/shadow.php:26
 msgid "Bottom"
 msgstr ""
 
@@ -4732,307 +4732,327 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:62
-msgid "After Expiration"
+#: includes/shortcodes/pro/countdown.php:60
+msgid "Redirect"
 msgstr ""
 
 #: includes/shortcodes/pro/countdown.php:63
+msgid "After Expiration"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:64
 msgid "Choose what to show when the countdown has expired"
 msgstr ""
 
 #: includes/shortcodes/pro/countdown.php:70
-msgid "Empty Text Color"
+msgid "Redirect URL after expiration"
 msgstr ""
 
 #: includes/shortcodes/pro/countdown.php:71
+msgid "URL to redirect to when the countdown has expired"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:78
+msgid "Empty Text Color"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:79
 msgid "Color of the text shown when the countdown has expired"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:80
+#: includes/shortcodes/pro/countdown.php:88
 msgid "Empty Text Size"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:81
+#: includes/shortcodes/pro/countdown.php:89
 msgid "Expired text size in pixels. Set to 0 to use the default size."
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:87
+#: includes/shortcodes/pro/countdown.php:95
 msgid "Show Separators"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:88
+#: includes/shortcodes/pro/countdown.php:96
 msgid "Show separators between countdown units"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:94
+#: includes/shortcodes/pro/countdown.php:102
 msgid "Separator"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:95
+#: includes/shortcodes/pro/countdown.php:103
 msgid "Text between countdown units"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:101
+#: includes/shortcodes/pro/countdown.php:109
 msgid "Separator color"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:102
+#: includes/shortcodes/pro/countdown.php:110
 msgid "Color of countdown separators"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:108
+#: includes/shortcodes/pro/countdown.php:116
 msgid "Separator animation"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:109
+#: includes/shortcodes/pro/countdown.php:117
 msgid "Enable separator blinking animation"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:121
+#: includes/shortcodes/pro/countdown.php:129
 msgid "Container alignment"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:122
+#: includes/shortcodes/pro/countdown.php:130
 msgid "Countdown container alignment"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:131
+#: includes/shortcodes/pro/countdown.php:139
 msgid "Horizontal spacing"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:132
+#: includes/shortcodes/pro/countdown.php:140
 msgid "Spacing between digit blocks and separators in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:139
+#: includes/shortcodes/pro/countdown.php:147
 msgid "Container background color"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:140
+#: includes/shortcodes/pro/countdown.php:148
 msgid "Background color of the countdown container"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:146
+#: includes/shortcodes/pro/countdown.php:154
 msgid "Container border"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:147
+#: includes/shortcodes/pro/countdown.php:155
 msgid "Border around the countdown container"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:156
+#: includes/shortcodes/pro/countdown.php:164
 msgid "Container border radius"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:157
+#: includes/shortcodes/pro/countdown.php:165
 msgid "Container border radius in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:166
+#: includes/shortcodes/pro/countdown.php:174
 msgid "Container padding"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:167
+#: includes/shortcodes/pro/countdown.php:175
 msgid "Inner container padding in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:173
+#: includes/shortcodes/pro/countdown.php:181
 msgid "Show years"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:174
+#: includes/shortcodes/pro/countdown.php:182
 msgid "Show years unit"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:180
+#: includes/shortcodes/pro/countdown.php:188
 msgid "Show months"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:181
+#: includes/shortcodes/pro/countdown.php:189
 msgid "Show months unit"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:187
+#: includes/shortcodes/pro/countdown.php:195
 msgid "Show days"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:188
+#: includes/shortcodes/pro/countdown.php:196
 msgid "Show days unit"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:194
+#: includes/shortcodes/pro/countdown.php:202
 msgid "Show hours"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:195
+#: includes/shortcodes/pro/countdown.php:203
 msgid "Show hours unit"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:202
-msgid "Digit background color"
-msgstr ""
-
-#: includes/shortcodes/pro/countdown.php:203
-msgid "Background color of digit blocks"
-msgstr ""
-
 #: includes/shortcodes/pro/countdown.php:209
-msgid "Digit border"
+msgid "Auto hide zero digits"
 msgstr ""
 
 #: includes/shortcodes/pro/countdown.php:210
-msgid "Border around digit blocks"
-msgstr ""
-
-#: includes/shortcodes/pro/countdown.php:216
-msgid "Digit color"
+msgid "Automatically hide leading zero-value units as the countdown progresses"
 msgstr ""
 
 #: includes/shortcodes/pro/countdown.php:217
+msgid "Digit background color"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:218
+msgid "Background color of digit blocks"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:224
+msgid "Digit border"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:225
+msgid "Border around digit blocks"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:231
+msgid "Digit color"
+msgstr ""
+
+#: includes/shortcodes/pro/countdown.php:232
 msgid "Color of countdown digits"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:226
+#: includes/shortcodes/pro/countdown.php:241
 msgid "Digits Text Size"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:227
+#: includes/shortcodes/pro/countdown.php:242
 msgid "Countdown digits text size in pixels. Set to 0 to use the default size."
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:236
+#: includes/shortcodes/pro/countdown.php:251
 msgid "Digit border radius"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:237
+#: includes/shortcodes/pro/countdown.php:252
 msgid "Digit block border radius in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:246
+#: includes/shortcodes/pro/countdown.php:261
 msgid "Digit padding"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:247
+#: includes/shortcodes/pro/countdown.php:262
 msgid "Inner digit block padding in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:254
+#: includes/shortcodes/pro/countdown.php:269
 msgid "Flip"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:258
+#: includes/shortcodes/pro/countdown.php:273
 msgid "Digit animation"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:259
+#: includes/shortcodes/pro/countdown.php:274
 msgid "Animation used when digit values change"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:263
+#: includes/shortcodes/pro/countdown.php:278
 msgid "YEARS"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:264
+#: includes/shortcodes/pro/countdown.php:279
 msgid "Years label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:265
+#: includes/shortcodes/pro/countdown.php:280
 msgid "Label shown under or next to years"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:269
+#: includes/shortcodes/pro/countdown.php:284
 msgid "MONTHS"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:270
+#: includes/shortcodes/pro/countdown.php:285
 msgid "Months label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:271
+#: includes/shortcodes/pro/countdown.php:286
 msgid "Label shown under or next to months"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:275
+#: includes/shortcodes/pro/countdown.php:290
 msgid "DAYS"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:276
+#: includes/shortcodes/pro/countdown.php:291
 msgid "Days label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:277
+#: includes/shortcodes/pro/countdown.php:292
 msgid "Label shown under or next to days"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:281
+#: includes/shortcodes/pro/countdown.php:296
 msgid "HOURS"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:282
+#: includes/shortcodes/pro/countdown.php:297
 msgid "Hours label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:283
+#: includes/shortcodes/pro/countdown.php:298
 msgid "Label shown under or next to hours"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:287
+#: includes/shortcodes/pro/countdown.php:302
 msgid "MINUTES"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:288
+#: includes/shortcodes/pro/countdown.php:303
 msgid "Minutes label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:289
+#: includes/shortcodes/pro/countdown.php:304
 msgid "Label shown under or next to minutes"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:293
+#: includes/shortcodes/pro/countdown.php:308
 msgid "SECONDS"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:294
+#: includes/shortcodes/pro/countdown.php:309
 msgid "Seconds label"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:295
+#: includes/shortcodes/pro/countdown.php:310
 msgid "Label shown under or next to seconds"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:304
+#: includes/shortcodes/pro/countdown.php:319
 msgid "Right bottom"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:307
+#: includes/shortcodes/pro/countdown.php:322
 msgid "Label position"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:308
+#: includes/shortcodes/pro/countdown.php:323
 msgid "Position of labels relative to digits"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:317
+#: includes/shortcodes/pro/countdown.php:332
 msgid "Vertical spacing"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:318
+#: includes/shortcodes/pro/countdown.php:333
 msgid "Spacing between digits and labels in pixels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:324
+#: includes/shortcodes/pro/countdown.php:339
 msgid "Label color"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:325
+#: includes/shortcodes/pro/countdown.php:340
 msgid "Color of countdown labels"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:334
+#: includes/shortcodes/pro/countdown.php:349
 msgid "Labels Text Size"
 msgstr ""
 
-#: includes/shortcodes/pro/countdown.php:335
+#: includes/shortcodes/pro/countdown.php:350
 msgid "Countdown labels text size in pixels. Set to 0 to use the default size."
 msgstr ""
 
