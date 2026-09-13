@@ -29,6 +29,11 @@ final class Shortcodes_Ultimate_Admin_About extends Shortcodes_Ultimate_Admin {
 			return;
 		}
 
+		if ( ! su_fs()->can_use_premium_code() && ! su_has_active_addons() ) {
+			wp_enqueue_script( 'plugin-install' );
+			add_thickbox();
+		}
+
 		wp_enqueue_script(
 			'shortcodes-ultimate-admin-about',
 			plugins_url( 'js/about/index.js', __FILE__ ),

@@ -49,6 +49,7 @@ su_add_shortcode(
 function su_shortcode_feed( $atts = null, $content = null ) {
 
 	$atts   = su_parse_shortcode_atts( 'feed', $atts );
+	$output = '';
 
 	$atts['url'] = wp_specialchars_decode( $atts['url'] );
 

@@ -3,10 +3,10 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, carousel, lightbox, block editor
-Stable tag: 7.8.4
+Stable tag: 7.9.0
 Requires PHP: 7.0
 Requires at least: 6.0
-Tested up to: 7.0
+Tested up to: 7.1
 
 
 Add 50+ shortcodes with live preview for tabs, accordions, buttons, FAQs, sliders and boxes. Works in Block Editor and Classic Editor.
@@ -14,13 +14,13 @@ Add 50+ shortcodes with live preview for tabs, accordions, buttons, FAQs, slider
 
 == Description ==
 
-= Building new pages with Gutenberg? =
+= 🌟 Building new pages with Gutenberg? =
 
 Explore VovaBlocks, a focused collection of native marketing and content blocks from the creator of Shortcodes Ultimate.
 
 [View VovaBlocks →](https://wordpress.org/plugins/vova-blocks/)
 
-= About Shortcodes Ultimate =
+= ➡️ About Shortcodes Ultimate =
 
 [Shortcodes Ultimate](https://getshortcodes.com/?utm_campaign=wporg&utm_medium=readme&utm_source=description) is a WordPress shortcode plugin for adding tabs, accordions, buttons, FAQs, sliders, carousels, lightboxes, columns, boxes and other reusable content elements without coding. It is ideal for site owners who want richer content layouts and practical UI elements without switching to a full page builder.
 
@@ -200,6 +200,13 @@ Upgrade normally
 
 == Changelog ==
 
+
+= 7.9.0 =
+
+- Added the Conditional Content shortcode for displaying content based on visitor, date and time, request, post, and WooCommerce conditions.
+- Fixed a fatal error in gallery shortcodes when image resizing fails. [Forum topic](https://wordpress.org/support/topic/fatal-error-report/).
+- Fixed a PHP Warning in su_feed shortcode. [Forum topic](https://wordpress.org/support/topic/bug-report-undefined-variable-output-php-warning-in-su_feed-shortcode/).
+- Tested with WordPress 7.1
 
 = 7.8.4 =
 

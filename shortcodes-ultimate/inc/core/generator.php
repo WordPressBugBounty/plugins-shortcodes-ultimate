@@ -488,7 +488,10 @@ class Su_Generator
 		// Prepare default value
 		$default = (string) (isset($attr_info['default'])) ? $attr_info['default'] : '';
 		$attr_info['name'] = (isset($attr_info['name'])) ? $attr_info['name'] : $attr_name;
-		$return = '<div class="su-generator-attr-container' . $skip . '" data-default="' . esc_attr($default) . '">';
+		$depends = isset($attr_info['depends']) && is_array($attr_info['depends'])
+			? ' data-depends="' . esc_attr(wp_json_encode($attr_info['depends'])) . '"'
+			: '';
+		$return = '<div class="su-generator-attr-container' . $skip . '" data-default="' . esc_attr($default) . '"' . $depends . '>';
 		$return .= '<h5>' . $attr_info['name'] . '</h5>';
 		// Create field types
 		if (!isset($attr_info['type']) && isset($attr_info['values']) && is_array($attr_info['values']) && count($attr_info['values']))

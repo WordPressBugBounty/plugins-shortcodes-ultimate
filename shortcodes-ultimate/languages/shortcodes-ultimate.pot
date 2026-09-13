@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin/class-shortcodes-ultimate-admin-about.php:13, admin/class-shortcodes-ultimate-admin-about.php:14, admin/class-shortcodes-ultimate-admin-about.php:56, admin/partials/pages/settings.php:50
+#: admin/class-shortcodes-ultimate-admin-about.php:13, admin/class-shortcodes-ultimate-admin-about.php:14, admin/class-shortcodes-ultimate-admin-about.php:61, admin/partials/pages/settings.php:55
 msgid "About"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Get more styles for this shortcode with the <nobr>PRO version</nobr>"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-pro-features.php:173, inc/core/generator.php:280, inc/core/generator.php:280, admin/partials/notices/pro.php:3, admin/partials/pages/about.php:55, admin/partials/pages/about.php:78
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:173, inc/core/generator.php:280, inc/core/generator.php:280, admin/partials/notices/pro.php:3, admin/partials/pages/about.php:60, admin/partials/pages/about.php:83
 msgid "Upgrade to PRO"
 msgstr ""
 
@@ -207,11 +207,11 @@ msgstr ""
 msgid "This option enables alternative (deprecated) mode for nested shortcodes."
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-settings.php:222, admin/class-shortcodes-ultimate-admin-settings.php:223, admin/class-shortcodes-ultimate-admin-settings.php:344, inc/core/generator.php:275, admin/partials/notices/unsafe-features.php:19
+#: admin/class-shortcodes-ultimate-admin-settings.php:222, admin/class-shortcodes-ultimate-admin-settings.php:223, admin/class-shortcodes-ultimate-admin-settings.php:349, inc/core/generator.php:275, admin/partials/notices/unsafe-features.php:19
 msgid "Settings"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-settings.php:241, admin/class-shortcodes-ultimate-admin-settings.php:322
+#: admin/class-shortcodes-ultimate-admin-settings.php:241, admin/class-shortcodes-ultimate-admin-settings.php:327
 msgid "General settings"
 msgstr ""
 
@@ -219,7 +219,7 @@ msgstr ""
 msgid "Shortcodes Ultimate"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-top-level.php:40, admin/partials/pages/about.php:33
+#: admin/class-shortcodes-ultimate-admin-top-level.php:40, admin/partials/pages/about.php:38
 msgid "Shortcodes"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgstr ""
 msgid "Shortcodes Ultimate is not activated, because it requires WordPress version %1$s (or higher). You have version %2$s."
 msgstr ""
 
-#: includes/class-shortcodes-ultimate-elementor.php:45, inc/core/generator.php:64, inc/core/generator.php:133, inc/core/generator.php:170, inc/core/generator.php:548
+#: includes/class-shortcodes-ultimate-elementor.php:45, inc/core/generator.php:64, inc/core/generator.php:133, inc/core/generator.php:170, inc/core/generator.php:551
 msgid "Insert shortcode"
 msgstr ""
 
@@ -1050,59 +1050,59 @@ msgstr ""
 msgid "Shortcodes Ultimate Pro"
 msgstr ""
 
-#: inc/core/generator.php:503
+#: inc/core/generator.php:506
 msgid "Click to set this value"
 msgstr ""
 
-#: inc/core/generator.php:521, includes/config/groups.php:7, includes/shortcodes/pro/icon-text.php:9
+#: inc/core/generator.php:524, includes/config/groups.php:7, includes/shortcodes/pro/icon-text.php:9
 msgid "Content"
 msgstr ""
 
-#: inc/core/generator.php:533
+#: inc/core/generator.php:536
 msgid "Shortcode not specified"
 msgstr ""
 
-#: inc/core/generator.php:549, inc/core/generator.php:549, inc/core/generator.php:549
+#: inc/core/generator.php:552, inc/core/generator.php:552, inc/core/generator.php:552
 msgid "Copy shortcode"
 msgstr ""
 
-#: inc/core/generator.php:549
+#: inc/core/generator.php:552
 msgid "Copied"
 msgstr ""
 
-#: inc/core/generator.php:550, inc/core/generator.php:550
+#: inc/core/generator.php:553, inc/core/generator.php:553
 msgid "Reset Settings"
 msgstr ""
 
-#: inc/core/generator.php:564, admin/partials/pro-features/generator.php:2
+#: inc/core/generator.php:567, admin/partials/pro-features/generator.php:2
 msgid "Click to return to the shortcodes list"
 msgstr ""
 
-#: inc/core/generator.php:564, admin/partials/pro-features/generator.php:2
+#: inc/core/generator.php:567, admin/partials/pro-features/generator.php:2
 msgid "All shortcodes"
 msgstr ""
 
-#: inc/core/generator.php:634
+#: inc/core/generator.php:637
 msgid "Preview"
 msgstr ""
 
-#: inc/core/generator.php:644
+#: inc/core/generator.php:647
 msgid "Access denied"
 msgstr ""
 
-#: inc/core/generator.php:769
+#: inc/core/generator.php:772
 msgid "(no title)"
 msgstr ""
 
-#: inc/core/generator.php:853
+#: inc/core/generator.php:856
 msgid "Presets"
 msgstr ""
 
-#: inc/core/generator.php:856
+#: inc/core/generator.php:859
 msgid "Save current settings as preset"
 msgstr ""
 
-#: inc/core/generator.php:892, inc/core/generator.php:888
+#: inc/core/generator.php:895, inc/core/generator.php:891
 msgid "Presets not found"
 msgstr ""
 
@@ -1262,7 +1262,7 @@ msgstr ""
 msgid "Menu order"
 msgstr ""
 
-#: includes/config/post-fields.php:23, includes/shortcodes/post.php:44, includes/shortcodes/pro/posts-grid.php:38
+#: includes/config/post-fields.php:23, includes/shortcodes/conditional.php:27, includes/shortcodes/conditional.php:141, includes/shortcodes/post.php:44, includes/shortcodes/pro/posts-grid.php:38
 msgid "Post type"
 msgstr ""
 
@@ -1314,7 +1314,7 @@ msgstr ""
 msgid "Nice name"
 msgstr ""
 
-#: includes/config/user-fields.php:14, includes/shortcodes/feed.php:15, includes/shortcodes/tabs.php:100, includes/shortcodes/pro/exit-popup.php:64, includes/shortcodes/pro/icon-panel.php:83, includes/shortcodes/pro/icon-text.php:45, includes/shortcodes/pro/icon.php:82, includes/shortcodes/pro/member.php:156, includes/shortcodes/pro/panel.php:71, includes/shortcodes/pro/photo-panel.php:73, includes/shortcodes/pro/section.php:117, includes/shortcodes/pro/splash.php:64
+#: includes/config/user-fields.php:14, includes/shortcodes/conditional.php:25, includes/shortcodes/feed.php:15, includes/shortcodes/tabs.php:100, includes/shortcodes/pro/exit-popup.php:64, includes/shortcodes/pro/icon-panel.php:83, includes/shortcodes/pro/icon-text.php:45, includes/shortcodes/pro/icon.php:82, includes/shortcodes/pro/member.php:156, includes/shortcodes/pro/panel.php:71, includes/shortcodes/pro/photo-panel.php:73, includes/shortcodes/pro/section.php:117, includes/shortcodes/pro/splash.php:64
 msgid "URL"
 msgstr ""
 
@@ -1928,6 +1928,218 @@ msgstr ""
 msgid "Did you know that you need to wrap columns with [row] shortcode?"
 msgstr ""
 
+#: includes/shortcodes/conditional.php:8
+msgid "Conditional content"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:15
+msgid "Select condition"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:16
+msgid "User is logged in"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:17
+msgid "User is logged out"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:18, includes/shortcodes/conditional.php:48
+msgid "User role"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:19, includes/shortcodes/conditional.php:59
+msgid "Device"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:20, includes/shortcodes/conditional.php:65
+msgid "Language"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:21, includes/shortcodes/display-posts.php:119, includes/shortcodes/posts.php:144, includes/shortcodes/pro/posts-grid.php:133, includes/shortcodes/pro/posts-grid.php:335
+msgid "Date"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:22, includes/shortcodes/scheduler.php:14
+msgid "Time"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:23
+msgid "Date and time"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:24
+msgid "Cookie"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:26
+msgid "HTTP referrer"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:28
+msgid "Post category"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:29
+msgid "WooCommerce purchase"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:32
+msgid "Condition"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:33
+msgid "Select a condition, then fill in its related fields. Fields for other conditions are ignored."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:38
+msgid "Is"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:39
+msgid "Is not"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:42
+msgid "Operator"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:43
+msgid "Use “Is not” to invert the selected condition."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:49
+msgid "For the User role condition. Enter one or more role slugs separated by commas, for example administrator,editor. User-dependent content may be affected by full-page caching."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:55
+msgid "Mobile"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:56
+msgid "Desktop"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:60
+msgid "For the Device condition. Detection is performed on the server, not by viewport width, and may be affected by full-page caching or a CDN."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:66
+msgid "For the Language condition. Enter a locale such as en_US or a two-letter language code such as en."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:71
+msgid "Cookie name"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:72
+msgid "For the Cookie condition. Show content when this cookie exists. Cookie-dependent content may be affected by full-page caching."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:77
+msgid "Cookie value"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:78
+msgid "Optional. When set, the cookie value must match this value exactly."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:83
+msgid "Product ID"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:84
+msgid "For the WooCommerce purchase condition. Enter one or more product IDs separated by commas. The condition is available to logged-in customers and may be affected by full-page caching."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:90
+msgid "Date from"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:91
+msgid "For the Date condition. Start date in YYYY-MM-DD format, using the WordPress site timezone."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:97
+msgid "Date to"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:98
+msgid "For the Date condition. End date in YYYY-MM-DD format, using the WordPress site timezone."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:104
+msgid "Time from"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:105
+msgid "For the Time condition. Start time in HH:MM format. A range such as 22:00–06:00 crosses midnight."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:111
+msgid "Time to"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:112
+msgid "For the Time condition. End time in HH:MM format, using the WordPress site timezone."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:117
+msgid "Date and time from"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:118
+msgid "For the Date and time condition. Start in YYYY-MM-DD HH:MM format, using the WordPress site timezone."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:123
+msgid "Date and time to"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:124
+msgid "For the Date and time condition. End in YYYY-MM-DD HH:MM format, using the WordPress site timezone."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:129
+msgid "URL contains"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:130
+msgid "For the URL condition. Enter text that must occur in the current request URL."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:135
+msgid "Referrer contains"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:136
+msgid "For the HTTP referrer condition. Referrers are optional browser data and can be missing or inaccurate."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:142
+msgid "For the Post type condition. Enter one or more post type slugs separated by commas."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:147
+msgid "Category"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:148
+msgid "For the Post category condition. Enter one or more category slugs or IDs separated by commas."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:151
+msgid "Conditionally displayed content"
+msgstr ""
+
+#: includes/shortcodes/conditional.php:152
+msgid "Show content only when specified conditions are met."
+msgstr ""
+
+#: includes/shortcodes/conditional.php:153
+msgid "Only fields related to the selected condition are used. Conditions based on users, devices, cookies, or purchases may be incompatible with full-page caching. This shortcode does not disable caching automatically."
+msgstr ""
+
 #: includes/shortcodes/csv-table.php:8
 msgid "CSV Table"
 msgstr ""
@@ -2246,10 +2458,6 @@ msgstr ""
 
 #: includes/shortcodes/display-posts.php:118, includes/shortcodes/posts.php:143, includes/shortcodes/pro/posts-grid.php:132
 msgid "Post slug"
-msgstr ""
-
-#: includes/shortcodes/display-posts.php:119, includes/shortcodes/posts.php:144, includes/shortcodes/pro/posts-grid.php:133, includes/shortcodes/pro/posts-grid.php:335
-msgid "Date"
 msgstr ""
 
 #: includes/shortcodes/display-posts.php:120, includes/shortcodes/posts.php:145, includes/shortcodes/pro/posts-grid.php:134
@@ -2722,11 +2930,11 @@ msgstr ""
 msgid "Feed grabber"
 msgstr ""
 
-#: includes/shortcodes/feed.php:61
+#: includes/shortcodes/feed.php:62
 msgid "invalid feed URL"
 msgstr ""
 
-#: includes/shortcodes/feed.php:73
+#: includes/shortcodes/feed.php:74
 msgid "no items in the feed"
 msgstr ""
 
@@ -3636,10 +3844,6 @@ msgstr ""
 msgid "Scheduler"
 msgstr ""
 
-#: includes/shortcodes/scheduler.php:14
-msgid "Time"
-msgstr ""
-
 #: includes/shortcodes/scheduler.php:15
 msgid "In this field you can specify one or more time ranges. Every day at this time the content of shortcode will be visible. %1$s %2$s %3$s - show content from 9:00 to 18:00 %4$s - show content from 9:00 to 13:00 and from 14:00 to 18:00 %5$s - example with minutes (content will be visible each day, 45 minutes) %6$s - example with seconds"
 msgstr ""
@@ -4474,108 +4678,124 @@ msgstr ""
 msgid "Some minor features of the plugin have been automatically disabled to improve the security."
 msgstr ""
 
+#: admin/partials/notices/vova-blocks.php:18
+msgid "Building new pages with blocks?"
+msgstr ""
+
+#: admin/partials/notices/vova-blocks.php:19
+msgid "If you use Shortcodes Ultimate and build new pages with blocks, try VovaBlocks — a lightweight collection of practical blocks for the WordPress editor."
+msgstr ""
+
+#: admin/partials/notices/vova-blocks.php:21
+msgid "View details and install VovaBlocks"
+msgstr ""
+
+#: admin/partials/notices/vova-blocks.php:21
+msgid "View VovaBlocks"
+msgstr ""
+
 #. translators: %s will be replaced with "Shortcodes Ultimate"
-#: admin/partials/pages/about.php:17
+#: admin/partials/pages/about.php:22
 msgid "Welcome to %s"
 msgstr ""
 
-#: admin/partials/pages/about.php:19
+#: admin/partials/pages/about.php:24
 msgid "The most powerful shortcode plugin for WordPress"
 msgstr ""
 
-#: admin/partials/pages/about.php:26
+#: admin/partials/pages/about.php:31
 msgid "See the plugin in action"
 msgstr ""
 
-#: admin/partials/pages/about.php:34
+#: admin/partials/pages/about.php:39
 msgid "The plugin includes over 60 amazing shortcodes"
 msgstr ""
 
-#: admin/partials/pages/about.php:38
+#: admin/partials/pages/about.php:43
 msgid "Shortcode icon"
 msgstr ""
 
-#: admin/partials/pages/about.php:47
+#: admin/partials/pages/about.php:52
 msgid "View all shortcodes"
 msgstr ""
 
-#: admin/partials/pages/about.php:58
+#: admin/partials/pages/about.php:63
 msgid "Elementor support"
 msgstr ""
 
-#: admin/partials/pages/about.php:59
+#: admin/partials/pages/about.php:64
 msgid "Personal email support"
 msgstr ""
 
-#: admin/partials/pages/about.php:60
+#: admin/partials/pages/about.php:65
 msgid "Parallax Section shortcode"
 msgstr ""
 
-#: admin/partials/pages/about.php:61
+#: admin/partials/pages/about.php:66
 msgid "Content Slider shortcode"
 msgstr ""
 
-#: admin/partials/pages/about.php:62
+#: admin/partials/pages/about.php:67
 msgid "Testimonail shortcode"
 msgstr ""
 
-#: admin/partials/pages/about.php:63
+#: admin/partials/pages/about.php:68
 msgid "Progress Bar shortcode"
 msgstr ""
 
-#: admin/partials/pages/about.php:64
+#: admin/partials/pages/about.php:69
 msgid "Exit Popup shortcode"
 msgstr ""
 
-#: admin/partials/pages/about.php:65
+#: admin/partials/pages/about.php:70
 msgid "Custom HTML & PHP shortcodes"
 msgstr ""
 
-#: admin/partials/pages/about.php:66
+#: admin/partials/pages/about.php:71
 msgid "Over 50 additional styles for selected shortcodes"
 msgstr ""
 
-#: admin/partials/pages/about.php:76
+#: admin/partials/pages/about.php:81
 msgid "per year"
 msgstr ""
 
-#: admin/partials/pages/about.php:85
+#: admin/partials/pages/about.php:90
 msgid "Get help"
 msgstr ""
 
-#: admin/partials/pages/about.php:91
+#: admin/partials/pages/about.php:96
 msgid "Plugin documentation"
 msgstr ""
 
-#: admin/partials/pages/about.php:97
+#: admin/partials/pages/about.php:102
 msgid "Community support forum"
 msgstr ""
 
-#: admin/partials/pages/about.php:103
+#: admin/partials/pages/about.php:108
 msgid "Premium support"
 msgstr ""
 
-#: admin/partials/pages/settings.php:11
+#: admin/partials/pages/settings.php:16
 msgid "Shortcodes Ultimate Settings"
 msgstr ""
 
-#: admin/partials/pages/settings.php:22
+#: admin/partials/pages/settings.php:27
 msgid "Warning!"
 msgstr ""
 
-#: admin/partials/pages/settings.php:23
+#: admin/partials/pages/settings.php:28
 msgid "You are editing advanced settings. Do NOT modify anything in here unless you know what you are doing."
 msgstr ""
 
-#: admin/partials/pages/settings.php:26
+#: admin/partials/pages/settings.php:31
 msgid "Go back to main settings"
 msgstr ""
 
-#: admin/partials/pages/settings.php:48
+#: admin/partials/pages/settings.php:53
 msgid "Main settings"
 msgstr ""
 
-#: admin/partials/pages/settings.php:46
+#: admin/partials/pages/settings.php:51
 msgid "Advanced settings"
 msgstr ""
 

@@ -56,3 +56,4 @@ require_once su_get_plugin_path() . 'includes/shortcodes/post.php';
 require_once su_get_plugin_path() . 'includes/shortcodes/template.php';
 require_once su_get_plugin_path() . 'includes/shortcodes/qrcode.php';
 require_once su_get_plugin_path() . 'includes/shortcodes/scheduler.php';
+require_once su_get_plugin_path() . 'includes/shortcodes/conditional.php';

@@ -9,10 +9,10 @@
  * Text Domain: shortcodes-ultimate
  * Domain Path: /languages
  * License: GPLv3
- * Version: 7.8.4
+ * Version: 7.9.0
  * Requires PHP: 7.0
  * Requires at least: 6.0
- * Tested up to: 7.0
+ * Tested up to: 7.1
  *
  */
 if ( !defined( 'ABSPATH' ) ) {
@@ -65,6 +65,6 @@ if ( function_exists( 'su_fs' ) ) {
         }
     }
     define( 'SU_PLUGIN_FILE', __FILE__ );
-    define( 'SU_PLUGIN_VERSION', '7.8.4' );
+    define( 'SU_PLUGIN_VERSION', '7.9.0' );
     require_once dirname( __FILE__ ) . '/plugin.php';
 }
