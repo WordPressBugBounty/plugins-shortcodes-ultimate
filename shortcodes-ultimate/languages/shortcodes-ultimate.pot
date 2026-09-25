@@ -3398,7 +3398,11 @@ msgstr ""
 msgid "Lightbox window with custom content"
 msgstr ""
 
-#: includes/shortcodes/lightbox.php:64, includes/shortcodes/lightbox.php:70
+#: includes/shortcodes/lightbox.php:65
+msgid "please specify correct content type"
+msgstr ""
+
+#: includes/shortcodes/lightbox.php:69, includes/shortcodes/lightbox.php:75
 msgid "please specify correct source"
 msgstr ""
 
@@ -3495,7 +3499,7 @@ msgstr ""
 msgid "Custom menu by name"
 msgstr ""
 
-#: includes/shortcodes/menu.php:52
+#: includes/shortcodes/menu.php:54
 msgid "This menu doesn't exists, or has no elements"
 msgstr ""
 
@@ -3540,7 +3544,7 @@ msgid "Filter"
 msgstr ""
 
 #: includes/shortcodes/meta.php:40, includes/shortcodes/post.php:50, includes/shortcodes/user.php:42
-msgid "You can apply custom filter to the retrieved value. Enter here function name. Your function must accept one argument and return modified value. Name of your function must include word <b>filter</b>. Example function: "
+msgid "You can apply custom filter to the retrieved value. Enter here function name. Your function must accept one argument and return modified value. Register your function using the <b>su/shortcode/allowed_filters</b> hook before using it here. Only allow functions that are safe to call with author-controlled values. Example: "
 msgstr ""
 
 #: includes/shortcodes/meta.php:43

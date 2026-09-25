@@ -65,7 +65,7 @@ function su_shortcode_feed( $atts = null, $content = null ) {
 	$feed = fetch_feed( $atts['url'] );
 
 	if ( is_wp_error( $feed ) ) {
-		return su_error_message( 'Feed', $feed->get_error_message() );
+		return su_error_message( 'Feed', esc_html( $feed->get_error_message() ) );
 	}
 
 	$items = $feed->get_items( 0, (int) $atts['limit'] );
