@@ -424,9 +424,17 @@ function su_sanitize_css_value( $value, $default = 'none' ) {
  */
 function su_get_current_url() {
 
-	$protocol = is_ssl() ? 'https' : 'http';
+	$home = wp_parse_url( home_url() );
+	$url  = $home['scheme'] . '://' . $home['host'];
 
-	return esc_url( "{$protocol}://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}" );
+	if ( isset( $home['port'] ) ) {
+		$url .= ':' . $home['port'];
+	}
+
+	// REQUEST_URI already includes the home path on subdirectory installations.
+	$request_uri = isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '/';
+
+	return esc_url( $url . $request_uri );
 
 }
 
