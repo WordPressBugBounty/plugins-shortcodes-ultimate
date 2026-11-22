@@ -3,7 +3,7 @@ Contributors: gn_themes
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: shortcode, shortcodes, carousel, lightbox, block editor
-Stable tag: 7.9.2
+Stable tag: 7.9.3
 Requires PHP: 7.0
 Requires at least: 6.0
 Tested up to: 7.1
@@ -200,6 +200,15 @@ Upgrade normally
 
 == Changelog ==
 
+
+= 7.9.3 =
+
+- Fixed stored XSS through Lightbox iframe sources. Thanks to Dmitrii Ignatyev for reporting.
+- Fixed an Unsafe Features bypass affecting Button onclick attributes and Meta data. Thanks to vuxvinh for reporting.
+- Fixed unauthorized post meta disclosure in the Meta shortcode. Thanks to vuxvinh for reporting.
+- Fixed private post title disclosure in the Permalink shortcode. Thanks to Jacek Sowiński for reporting.
+- Added post access checks to gallery slide data.
+- Fixed a PHP deprecation notice in Tabs shortcode when global variables are not properly initialized. [Forum topic](https://wordpress.org/support/topic/php-deprecated-null-array-offset-in-tabs-php-line-208-su_shortcode_tab/)
 
 = 7.9.2 =
 

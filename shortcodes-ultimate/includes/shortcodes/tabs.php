@@ -127,6 +127,11 @@ function su_shortcode_tabs( $atts = null, $content = null ) {
 
 	global $shortcodes_ultimate_global_tabs, $shortcodes_ultimate_global_tabs_count;
 
+	if ( ! is_array( $shortcodes_ultimate_global_tabs ) ) {
+		$shortcodes_ultimate_global_tabs = array();
+	}
+	$shortcodes_ultimate_global_tabs_count = (int) $shortcodes_ultimate_global_tabs_count;
+
 	$atts = shortcode_atts(
 		array(
 			'active'        => 1,
@@ -189,6 +194,11 @@ function su_shortcode_tabs( $atts = null, $content = null ) {
 function su_shortcode_tab( $atts = null, $content = null ) {
 
 	global $shortcodes_ultimate_global_tabs, $shortcodes_ultimate_global_tabs_count;
+
+	if ( ! is_array( $shortcodes_ultimate_global_tabs ) ) {
+		$shortcodes_ultimate_global_tabs = array();
+	}
+	$shortcodes_ultimate_global_tabs_count = (int) $shortcodes_ultimate_global_tabs_count;
 
 	$atts = shortcode_atts(
 		array(

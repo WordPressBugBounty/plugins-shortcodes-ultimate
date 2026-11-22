@@ -37,6 +37,10 @@ function su_get_gallery_slides( $atts ) {
 
 	foreach ( $posts as $post ) {
 
+		if ( ! su_current_user_can_read_post( $post->ID ) ) {
+			continue;
+		}
+
 		$attachment_id = 'attachment' === $post->post_type
 			? $post->ID
 			: get_post_thumbnail_id( $post->ID );
@@ -423,6 +427,10 @@ function su_get_slides( $args ) {
 	if ( is_array( $query->posts ) ) {
 
 		foreach ( $query->posts as $post ) {
+
+			if ( ! su_current_user_can_read_post( $post->ID ) ) {
+				continue;
+			}
 
 			$thumb = 'media' === $args['source']['type'] || 'attachment' === $post->post_type
 				? $post->ID

@@ -68,6 +68,10 @@ function su_shortcode_permalink( $atts = null, $content = null ) {
 
 	$atts['id'] = su_do_attribute( $atts['id'] );
 
+	if ( ! su_current_user_can_read_post( $atts['id'] ) ) {
+		return '';
+	}
+
 	if ( ! $content ) {
 		$content = get_the_title( $atts['id'] );
 	}

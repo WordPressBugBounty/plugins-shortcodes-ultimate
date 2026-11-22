@@ -215,7 +215,7 @@ msgstr ""
 msgid "General settings"
 msgstr ""
 
-#: admin/class-shortcodes-ultimate-admin-top-level.php:39, admin/class-shortcodes-ultimate-admin.php:267, admin/class-shortcodes-ultimate-widget.php:77, includes/functions-galleries.php:297, includes/deprecated/class-su-widget.php:15, includes/deprecated/class-su-widget.php:43, admin/partials/help/sidebar.php:3
+#: admin/class-shortcodes-ultimate-admin-top-level.php:39, admin/class-shortcodes-ultimate-admin.php:267, admin/class-shortcodes-ultimate-widget.php:77, includes/functions-galleries.php:301, includes/deprecated/class-su-widget.php:15, includes/deprecated/class-su-widget.php:43, admin/partials/help/sidebar.php:3
 msgid "Shortcodes Ultimate"
 msgstr ""
 
@@ -608,15 +608,15 @@ msgctxt "Custom shortcodes group name"
 msgid "Custom"
 msgstr ""
 
-#: includes/functions-galleries.php:258
+#: includes/functions-galleries.php:262
 msgid "Original image size"
 msgstr ""
 
-#: includes/functions-galleries.php:292
+#: includes/functions-galleries.php:296
 msgid "Slide link"
 msgstr ""
 
-#: includes/functions-galleries.php:298
+#: includes/functions-galleries.php:302
 msgid "Use this field to add custom links to slides used with Slider, Carousel and Custom Gallery shortcodes"
 msgstr ""
 
@@ -4236,7 +4236,7 @@ msgstr ""
 msgid "Tab name"
 msgstr ""
 
-#: includes/shortcodes/tabs.php:85, includes/shortcodes/tabs.php:195
+#: includes/shortcodes/tabs.php:85, includes/shortcodes/tabs.php:205
 msgid "Tab title"
 msgstr ""
 

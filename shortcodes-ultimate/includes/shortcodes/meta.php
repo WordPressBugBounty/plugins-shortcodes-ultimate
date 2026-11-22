@@ -88,6 +88,10 @@ function su_shortcode_meta($atts = null, $content = null)
 		return sprintf('<p class="su-error">Meta: %s</p>', __('please specify meta key name', 'shortcodes-ultimate'));
 	}
 
+	if (!su_current_user_can_read_post($atts['post_id'])) {
+		return '';
+	}
+
 	$meta = get_post_meta($atts['post_id'], $atts['key'], true);
 
 	if (!$meta) {

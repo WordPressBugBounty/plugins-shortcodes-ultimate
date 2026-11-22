@@ -450,7 +450,15 @@ function su_is_live_preview_request() {
 }
 
 function su_is_unsafe_features_enabled() {
-	return 'on' === get_option( 'su_option_unsafe_features' );
+	if ( 'on' !== get_option( 'su_option_unsafe_features' ) ) {
+		return false;
+	}
+
+	// Check the content author, not the visitor previewing the post.
+	$post = get_post();
+
+	return $post instanceof WP_Post
+		&& user_can( $post->post_author, 'unfiltered_html' );
 }
 
 /**
